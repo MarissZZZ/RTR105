@@ -7,4 +7,5 @@ Studija kursa Datormācība (pamatkurss) elektroniskā klade
 
 ### Mans mērķis
 _Iemācīties izprast C valodu_
+
 *Izbaudīt studijas universitātē*
