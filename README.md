@@ -1,7 +1,7 @@
 # RTR105
 Studija kursa Datormācība (pamatkurss) elektroniskā klade
 
-## Pirmās nodarbības atziņas
+## Pirmās nodarbības atziņas `#RRGGBB`
 **Esmu nedaudz satraucies**
 ![Attēls ar to, kā es jūtos pēc pirmās nodarbības.](https://vectorportal.com/storage/KkAWxEsRaTRjdsTVPoNJFrR9Hqrxk9j7iYeVqfsz.jpg)
 
@@ -25,3 +25,12 @@ Studija kursa Datormācība (pamatkurss) elektroniskā klade
 - [ ] Būšu pilnībā visu apguvis :tada:
 
 @MarissZZZ :+1: Readme failu formatēt ir jautri! :sunglasses:
+
+> [!NOTE]
+> Neliea infromācija par mani.
+
+> [!IMPORTANT]
+> Infromācija izmantota tikai lai trenētots formatēt.
+
+> [!WARNING]
+> Nepublicēt šo informāciju citur.
