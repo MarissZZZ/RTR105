@@ -1,7 +1,8 @@
 # RTR105
 Studija kursa Datormācība (pamatkurss) elektroniskā klade
 
-## Pirmās nodarbības atziņas `#0969DA`
+## Pirmās nodarbības atziņas
+
 **Esmu nedaudz satraucies**
 
 <img src="https://vectorportal.com/storage/KkAWxEsRaTRjdsTVPoNJFrR9Hqrxk9j7iYeVqfsz.jpg" width="400" height="400" />
@@ -44,5 +45,7 @@ Skruļaini mati.
 
 > [!WARNING]
 > Nepublicēt šo informāciju citur.
+
+$${\color{red}ES:}$$
 
 ![Attēls ar to, kā es jūtos pēc pirmās nodarbības.](https://vectorportal.com/storage/ZK4E3h47tE21fDkUZqzQW1kiYpbqHjvLtHEpti7O.jpg)
