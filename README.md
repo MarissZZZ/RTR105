@@ -46,6 +46,6 @@ Skruļaini mati.
 > [!WARNING]
 > Nepublicēt šo informāciju citur.
 
-# ${Es\ Esmu\ {\color{red}Priecīgs}}\ !$
+# ${Paldies\ par\ {\color{red}uzmanību}}\ !$
 
 ![Attēls ar to, kā es jūtos pēc pirmās nodarbības.](https://vectorportal.com/storage/ZK4E3h47tE21fDkUZqzQW1kiYpbqHjvLtHEpti7O.jpg)
