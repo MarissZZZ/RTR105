@@ -24,4 +24,4 @@ Studija kursa Datormācība (pamatkurss) elektroniskā klade
 - [x] Mācos formatēt readme.md
 - [ ] Būšu pilnībā visu apguvis :tada:
 
-@MarissZZZ :+1: Readme failu formatēt ir jautri! :shipit:
+@MarissZZZ :+1: Readme failu formatēt ir jautri! :sunglasses:
