@@ -19,13 +19,24 @@ Studija kursa Datormācība (pamatkurss) elektroniskā klade
 1. Neliela informācija par mani:
    - Pirmajā nodarbībā bija mana 1<sup>st</sup> reize ar Linux
      - Iepriekš biju programmējis Python, Java-Script valodās
-> Man ikdienā ir jāmēģīna dzer vairāk H<sub>2</sub>O
+> Man ikdienā ir jāmēģīna dzert vairāk H<sub>2</sub>O
 
 - [x] Mācos formatēt readme.md
 - [ ] Būšu pilnībā visu apguvis :tada:
 
 @MarissZZZ :+1: Readme failu formatēt ir jautri! :sunglasses:
 
+Mariss[^1].
+
+Garšo konfektes[^2].
+
+[^1]: Gandrīz divi metri garš. 
+Skruļaini mati.
+
+[^2]: Īpaši Haribo!
+
+> [!NOTE]
+> Neliela informācija par mani.
 
 > [!IMPORTANT]
 > Infromācija izmantota tikai lai trenētots formatēt.
