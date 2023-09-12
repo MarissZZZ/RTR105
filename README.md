@@ -1,7 +1,7 @@
 # RTR105
 Studija kursa Datormācība (pamatkurss) elektroniskā klade
 
-## Pirmās nodarbības atziņas `#RRGGBB`
+## Pirmās nodarbības atziņas `#0969DA`
 **Esmu nedaudz satraucies**
 ![Attēls ar to, kā es jūtos pēc pirmās nodarbības.](https://vectorportal.com/storage/KkAWxEsRaTRjdsTVPoNJFrR9Hqrxk9j7iYeVqfsz.jpg)
 
