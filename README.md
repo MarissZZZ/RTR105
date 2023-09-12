@@ -20,3 +20,8 @@ Studija kursa Datormācība (pamatkurss) elektroniskā klade
    - Pirmajā nodarbībā bija mana 1<sup>st</sup> reize ar Linux
      - Iepriekš biju programmējis Python, Java-Script valodās
 > Man ikdienā ir jāmēģīna dzer vairāk H<sub>2</sub>O
+
+- [x] Mācos formatēt readme.md
+- [ ] Būšu pilnībā visu apguvis :tada:
+
+@MarissZZZ :+1: Readme failu formatēt ir jautri! :shipit:
