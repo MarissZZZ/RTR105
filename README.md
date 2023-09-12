@@ -16,6 +16,7 @@ Studija kursa Datormācība (pamatkurss) elektroniskā klade
 
 - ***Cītīgi strādāt un mācīties***
  
-This is a <sub>subscript</sub> text
-
-This is a <sup>superscript</sup> text
+1. Neliela informācija par mani:
+   - Pirmajā nodarbībā bija mana 1<sup>st</sup> reize ar Linux
+     - Iepriekš biju programmējis Python, Java-Script valodās
+> Man ikdienā ir jāmēģīna dzer vairāk H<sub>2</sub>O
