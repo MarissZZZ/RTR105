@@ -26,8 +26,6 @@ Studija kursa Datormācība (pamatkurss) elektroniskā klade
 
 @MarissZZZ :+1: Readme failu formatēt ir jautri! :sunglasses:
 
-> [!NOTE]
-> Neliea infromācija par mani.
 
 > [!IMPORTANT]
 > Infromācija izmantota tikai lai trenētots formatēt.
