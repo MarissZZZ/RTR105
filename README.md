@@ -3,9 +3,8 @@ Studija kursa Datormācība (pamatkurss) elektroniskā klade
 
 ## Pirmās nodarbības atziņas `#0969DA`
 **Esmu nedaudz satraucies**
-![Attēls ar to, kā es jūtos pēc pirmās nodarbības.](https://vectorportal.com/storage/KkAWxEsRaTRjdsTVPoNJFrR9Hqrxk9j7iYeVqfsz.jpg width=100)
 
-<img src="https://camo.githubusercontent.com/..." data-canonical-src="https://vectorportal.com/storage/KkAWxEsRaTRjdsTVPoNJFrR9Hqrxk9j7iYeVqfsz.jpg" width="400" height="400" />
+<img src="https://vectorportal.com/storage/KkAWxEsRaTRjdsTVPoNJFrR9Hqrxk9j7iYeVqfsz.jpg" width="400" height="400" />
 
 ### Mans mērķis
 - _Iemācīties izprast C valodu_
@@ -45,3 +44,5 @@ Skruļaini mati.
 
 > [!WARNING]
 > Nepublicēt šo informāciju citur.
+
+![Attēls ar to, kā es jūtos pēc pirmās nodarbības.](https://vectorportal.com/storage/ZK4E3h47tE21fDkUZqzQW1kiYpbqHjvLtHEpti7O.jpg)
