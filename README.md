@@ -49,8 +49,11 @@ Skruļaini mati.
 # ${Shell\ scripting\ komandu\ {\color{red}nozīme}}\ :$
 
 whoami - kas es esmu (print effective userid)
+
 pwd - print name of current/working directory
+
 ls - list directory contents
+
 ls -l - use a long listing format
 ls -t - sort by modification time, newest first
 echo $0 - display a line of text
