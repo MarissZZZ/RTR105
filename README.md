@@ -48,11 +48,12 @@ Skruļaini mati.
 
 # ${Shell\ scripting\ komandu\ {\color{red}nozīme}}\ :$
 
-whoami
-pwd
-ls
-echo $0
-ls -l -t
+whoami - kas es esmu (print effective userid)
+pwd - print name of current/working directory
+ls - list directory contents
+ls -l - use a long listing format
+ls -t - sort by modification time, newest first
+echo $0 - display a line of text
 sh
 ls -a
 ls -la
@@ -107,7 +108,7 @@ echo samkawejfisdfnsdk
 echo man
 man echo
 echo wwww
-echo -e "www\a"
+echo -e "www\a" *-e* display a line of text *\a* alert (BEL)
 echo -e "123\n\t4567\a" > b.txt
 cat b.txt
 hexdump -C b.txt
