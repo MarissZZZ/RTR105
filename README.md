@@ -46,7 +46,7 @@ Skruļaini mati.
 > [!WARNING]
 > Nepublicēt šo informāciju citur.
 
-# ${Shell\ scripting\ komandu\ {\color{red}nozīme}}\ :$
+# ${Shell\ komandu\ {\color{red}nozīme}}\ :$
 
 whoami - kas es esmu (print effective userid)
 
