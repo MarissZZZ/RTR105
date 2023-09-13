@@ -1,0 +1,60 @@
+77a78,136
+>    78  ls
+>    79  rm -v !("history_mariss.txt")
+>    80  ls
+>    81  man ls
+>    82  man pwd
+>    83  man whoami
+>    84  man echo
+>    85  cp history_mariss.txt hihi.dat
+>    86  ls
+>    87  mkdir DEF
+>    88  ;s
+>    89  ls\
+>    90  ls
+>    91  mv hidi.dat ~/DEF/
+>    92  mb hihi.dat ~/DEF/
+>    93  mv hihi.dat ~/DEF/
+>    94  ls
+>    95  ls -lt DEF/
+>    96  mv DEF/hihi.dat DEF/hihihi.exe
+>    97  ls
+>    98  ls DEF/
+>    99  rmdir DEF
+>   100  rm -r DEF/
+>   101  ls
+>   102  whereis ls
+>   103  echo $PATH
+>   104  where is ls
+>   105  whereis ;s
+>   106  whereis ls
+>   107  ls /bin/ls
+>   108  ls -lt /bin/ls
+>   109  /bin/ls
+>   110  cat /bin/ls
+>   111  nano mana_komanda_1.sh
+>   112  ls
+>   113  fg
+>   114  chmod 754 mana_komanada_1.sh
+>   115  chmod 754 mana_komanda_1.sh
+>   116  ls
+>   117  echo $PATH
+>   118  pwd
+>   119  PATH=$PATH:~
+>   120  echo $PATH
+>   121  mkdir TEST
+>   122  cp mana_komanda_1.sh  TEST/
+>   123  ls\
+>   124  ls
+>   125  ls -lt TEST/
+>   126  PATH=$PATH:~/TEST
+>   127  echo $PATH
+>   128  fg
+>   129  nano mana_komanda_1.sh
+>   130  echo $PATH
+>   131  nano mana_komanda_1.sh
+>   132  nano TEST/mana_komanda_1.sh
+>   133  echo $PATH
+>   134  history
+>   135  history > history_mariss_2.txt
+>   136  history > history_mariss_3.txt
