@@ -1,0 +1,77 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  whoami
+    4  pwd
+    5  ls
+    6  echo $0
+    7  ls -l -t
+    8  sh
+    9  ls -a
+   10  ls -la
+   11  pwd
+   12  cd .
+   13  cd ..
+   14  pwd
+   15  cd ..
+   16  pwd
+   17  tree
+   18  ls
+   19  ls -la
+   20  cd ..
+   21  ls
+   22  cd ~
+   23  pwd
+   24  cd /
+   25  man ls
+   26  cd ~/Do
+   27  cd
+   28  cd ~/Do
+   29  cd ~/Documents/
+   30  cd
+   31  cd ~/Documents/
+   32  c
+   33  p
+   34  cd
+   35  c
+   36  ls
+   37  ls -l
+   38  mkdir ABC
+   39  ls -lt
+   40  ls -l ABC/
+   41  ls -la ABC/
+   42  rmdir ABC/
+   43  ls -l ABC/
+   44  ls
+   45  echo $?
+   46  rmdir ABC
+   47  echo $?
+   48  echo jnfsklnfsd
+   49  echo 12345
+   50  echo 12345 > a.txt
+   51  ls
+   52  ls -lt
+   53  ls -lt a.txt
+   54  cat a.txt
+   55  hexdump -C a.txt
+   56  echo abcdf >> a.txt
+   57  ls -lt a.txt
+   58  hexdump -C a.txt
+   59  echo samkawejfisdfnsdk
+   60  echo man
+   61  man echo
+   62  echo wwww
+   63  echo -e "www\a"
+   64  echo -e "123\n\t4567\a" > b.txt
+   65  cat b.txt
+   66  hexdump -C b.txt
+   67  touch -t 2023312312359 c.txt
+   68  ls -lt *.txt
+   69  touch -t 202331121258 c.txt
+   70  man touch
+   71  touch -t 202331231235 c.txt
+   72  touch -t 20233112 c.txt
+   73  touch -t 1231235959 c.txt
+   74  touch -t 202312310930 c.txt
+   75  ls -lt *.txt
+   76  history
+   77  history > history_mariss.txt
