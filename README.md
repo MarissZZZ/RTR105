@@ -113,31 +113,59 @@ rmdir ABC
 echo $?
 
 echo jnfsklnfsd
+
 echo 12345
+
 echo 12345 > a.txt
+
 ls
+
 ls -lt
+
 cat a.txt
+
 hexdump -C a.txt
+
 echo abcdf >> a.txt
+
 ls -lt a.txt
+
 hexdump -C a.txt
+
 echo samkawejfisdfnsdk
+
 echo man
+
 man echo
+
 echo wwww
+
 echo -e "www\a" *-e* display a line of text *\a* alert (BEL)
+
 echo -e "123\n\t4567\a" > b.txt
+
 cat b.txt
+
 hexdump -C b.txt
+
 touch -t 2023312312359 c.txt
+
 ls -lt *.txt
+
 touch -t 202331121258 c.txt
+
 man touch
+
 touch -t 202331231235 c.txt
+
 touch -t 20233112 c.txt
+
 touch -t 1231235959 c.txt
+
 touch -t 202312310930 c.txt
+
 ls -lt *.txt
+
 history
+
 history > history_mariss.txt
