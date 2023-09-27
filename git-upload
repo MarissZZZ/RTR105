@@ -1,8 +1,8 @@
 #!/bin/bash
 ./history $1
 git add .
-git config --global user.name MarissZZZ
-git config --global user.email marisszuss@gmail.com
-git commit -m "Class_0$1"
+#git config --global user.name MarissZZZ
+#git config --global user.email marisszuss@gmail.com
+git commit -m "Class_$1$2"
 git pull
 git push origin main
