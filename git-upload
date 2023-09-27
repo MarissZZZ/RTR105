@@ -1,4 +1,5 @@
 #!/bin/bash
+./history $1
 git add .
 git config --global user.name MarissZZZ
 git config --global user.email marisszuss@gmail.com
