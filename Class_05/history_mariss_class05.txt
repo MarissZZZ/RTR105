@@ -1,0 +1,78 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone https://github.com/MarissZZZ/RTR105
+    4  mkdir Class_05
+    5  ls -lt
+    6  pwd
+    7  cd Class_05/
+    8  clear
+    9  ls
+   10  cd ..
+   11  ls
+   12  rm Class_05
+   13  rmdir Class_05
+   14  ls
+   15  cd RTR105/
+   16  mkdir Class_05
+   17  cd Class_05/
+   18  clear
+   19  nano first.c
+   20  cat first.c
+   21  gcc --version
+   22  gcc first.c
+   23  ls -lt
+   24  cat a.out
+   25  history
+   26  ./a.out 
+   27  echo $?
+   28  nano first.c 
+   29  gcc first.c -o first.out
+   30  ./forst.out
+   31  ./first.out
+   32  ls -lt
+   33  nano first.c
+   34  diff a.out first.out
+   35  gcc first.c
+   36  ./a.out 
+   37  ./first.out 
+   38  cat first.out
+   39  cat first.c
+   40  cp first.c second.c
+   41  ls
+   42  nano second.c
+   43  gcc second.c
+   44  nano second.c 
+   45  gcc second.c 
+   46  ./a.out
+   47  nano second.c 
+   48  gcc second.c 
+   49  ./a.out
+   50  nano second.c 
+   51  gcc second.c 
+   52  ./a.out
+   53  gcc -E second.c > second.i
+   54  ls -lt
+   55  cat second.i
+   56  gcc second.c -o second_from_c.out
+   57  gcc second.c -o second_from_i.out
+   58  ls -lt
+   59  cat second_from_i.out 
+   60  gcc -S second.c
+   61  ls -lt
+   62  cat second.s
+   63  gcc second.s -o second_from_s.out
+   64  cat second_from_s.out 
+   65  gcc -c second.c
+   66  cat second.o
+   67  gcc -c second.c -o second_from_o.out
+   68  gcc -Wall -save-temps second.c
+   69  cd ...
+   70  cd ..
+   71  ls -lta
+   72  nano .gitignore
+   73  cd Class_05
+   74  cd ..
+   75  nano history
+   76  cd Class_05
+   77  history
+   78  history > history_mariss_class05.txt
