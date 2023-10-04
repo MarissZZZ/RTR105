@@ -1,0 +1,76 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone https://www.github.com/MarissZZZ/RTR105
+    4  ls -lt
+    5  cd RTR105/
+    6  mdir Class_07
+    7  mkdir Class_07
+    8  cd Class_07
+    9  nano printf_test.c
+   10  cat prinf_test.c
+   11  cat printf_test.c 
+   12  gcc printf_test.c
+   13  ls
+   14  ./a.out 
+   15  nano printf_test.c
+   16  gcc printf_test.c
+   17* 
+   18  nano printf_test.c
+   19  gcc printf_test.c
+   20  ./a.out 
+   21  ls
+   22  ./a.out 
+   23  gcc printf_test.c
+   24  ./a.out 
+   25  cat printf_test.c 
+   26  gcc printf_test.c
+   27  ./a.out 
+   28  nano printf_test.c
+   29* 
+   30  ./a.out 
+   31  nano printf_test.c
+   32  gcc printf_test.c -o b.out
+   33  ls
+   34  ./b.out 
+   35  nano printf_test.c
+   36  gcc printf_test.c -o c.out
+   37  ./c.out 
+   38  ls
+   39  history
+   40  history > history_Class_07.txt
+   41  ls
+   42  .git-upload
+   43  ./git-upload
+   44  cd RTR105
+   45  ..
+   46  .
+   47  cd ..
+   48  ./git-upload 
+   49  ls
+   50  ./git-upload 7 a
+   51  ls
+   52  nono git-upload 
+   53  nano git-upload 
+   54  ./git-upload 
+   55  history -a
+   56  ./git-upload 
+   57  history-a
+   58  history -a
+   59  ./git-upload 7 a
+   60  nano git-upload 
+   61  history -a
+   62  ./git-upload 07 a
+   63  cd Class_07
+   64  nano printf_test.c
+   65  gcc printf_test.c -o d.out
+   66  nano printf_test.c
+   67  gcc printf_test.c -o d.out
+   68  ls
+   69  ./d.out 
+   70  nano printf_test.c
+   71  gcc printf_test.c -o d.out
+   72  ./d.out 
+   73  history -a
+   74  history > history_RTR105_class07_a.txt
+   75  cd ..
+   76  history > history_mariss_class07_a_a.txt
