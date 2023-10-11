@@ -1,0 +1,116 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone https://www.github.com/MarissZZZ/RTR105
+    4  ls -lt
+    5  cd RTR105/
+    6  ls
+    7  mkdir Class_08
+    8  cd Class_08
+    9  nano variables.c
+   10  gcc variables.c -o variables.out
+   11  nano variables.c
+   12  gcc variables.c -o variables.out
+   13  ./variables.out 
+   14  nano variables.c
+   15  gcc variables.c -o variables.out
+   16  ./variables.out 
+   17  gcc variables.c -o variables.out
+   18  ls -lt
+   19  ./variables.out 
+   20  nano variables.c
+   21  gcc variables.c -o variables.out
+   22  ./variables.out 
+   23  nano variables.c
+   24  gcc variables.c -o variables.out
+   25  ./variables.out 
+   26  nano variables.c
+   27  gcc variables.c -o variables.out
+   28  ./variables.out 
+   29  nano variables.c
+   30  gcc variables.c -o variables.out
+   31  ./variables.out 
+   32  nano variables.c
+   33  fg
+   34* gcc operations.c -o variables.out
+   35  ./variables.out 
+   36  vp variables.c operations.c
+   37  cp variables.c operations.c
+   38  nano operations.c 
+   39  gcc operations.c -o operations.out
+   40  ./operations.out 
+   41  nano operations.c 
+   42  gcc operations.c -o operations.out
+   43  ./operations.out 
+   44  nano operations.c 
+   45  gcc operations.c -o operations.out
+   46  ./operations.out 
+   47  nano operations.c 
+   48  gcc operations.c -o operations.out
+   49  ./operations.out 
+   50  nano operations.c 
+   51  gcc operations.c -o operations.out
+   52  ./operations.out 
+   53  nano operations.c 
+   54  gcc operations.c -o operations.out
+   55  ./operations.out 
+   56  nano operations.c 
+   57  gcc operations.c -o operations.out
+   58  nano operations.c 
+   59  gcc operations.c -o operations.out
+   60  nano operations.c 
+   61  gcc operations.c -o operations.out
+   62  nano operations.c 
+   63  gcc operations.c -o operations.out
+   64  nano operations.c 
+   65  gcc operations.c -o operations.out
+   66  ./operations.out 
+   67  nano operations.c 
+   68  gcc operations.c -o operations.out
+   69  ./operations.out 
+   70  nano operations.c 
+   71  gcc operations.c -o operations.out
+   72  ./operations.out 
+   73  nano operations.c 
+   74  gcc operations.c -o operations.out
+   75  ./operations.out 
+   76  nano operations.c 
+   77  gcc operations.c -o operations.out
+   78  ./operations.out 
+   79  nano operations.c 
+   80  gcc operations.c -o operations.out
+   81  ./operations.out 
+   82  mkdir if.c
+   83  nano if.c
+   84  ls
+   85  rm if.c
+   86  rmdir if.c
+   87  nano if.c
+   88  gcc if.c -o if.out
+   89  ./if
+   90  ./if.out 
+   91  nani if.c
+   92  nano if.c
+   93  gcc if.c -o if.out
+   94  ./if.out 
+   95  cp if.c while.c
+   96  nano while.c
+   97  gcc while.c -o while.out
+   98  nano while.c
+   99  gcc while.c -o while.out
+  100  ./while.out 
+  101  nano while.c
+  102  gcc while.c -o while.out
+  103  ./while.out 
+  104  nano while.c
+  105  gcc while.c -o while.out
+  106  nano while.c
+  107  gcc while.c -o while.out
+  108  ./while.out 
+  109  cp while.c for.c
+  110  nano for.c
+  111  gcc for.c -o for.out
+  112  ./for.out 
+  113  nano for.c
+  114  gcc for.c -o for.out
+  115  ./for.out 
+  116  history > histor_08_mariss.txt
