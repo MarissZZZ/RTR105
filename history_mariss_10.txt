@@ -1,0 +1,44 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone https://github.com/MarissZZZ/RTR105
+    4  cd RTR105/
+    5  mkdir Class_10
+    6  nano while_char.c
+    7  gcc while_char.c -o while_char.out
+    8  ./while_char.out 
+    9  nano while_char.c
+   10  gcc while_char.c -o while_char.out
+   11  ./while_char.out 
+   12  nano while_char.c
+   13  cp while_char.c while_rand.c
+   14  nano while_rand.c 
+   15  gcc while_rand.c -o while_rand.out
+   16  ./while_rand.out 
+   17  nano while_rand.c 
+   18  gcc while_rand.c -o while_rand.out
+   19  ./while_rand.out 
+   20  nano while_rand.c 
+   21  gcc while_rand.c -o while_rand.out
+   22  ./while_rand.out 
+   23  nano while_rand.c 
+   24  gcc while_rand.c -o while_rand.out
+   25  ./while_rand.out 
+   26  nano while_rand.c 
+   27  gcc while_rand.c -o while_rand.out
+   28  ./while_rand.out 
+   29  nano while_rand.c 
+   30  gcc while_rand.c -o while_rand.out
+   31  nano while_rand.c 
+   32  gcc while_rand.c -o while_rand.out
+   33  nano while_rand.c 
+   34  gcc while_rand.c -o while_rand.out
+   35  nano while_rand.c 
+   36  gcc while_rand.c -o while_rand.out
+   37  ./while_rand.out 
+   38  cp while_rand.c function_V1.c
+   39  nano function_V1.c 
+   40  gcc function_V1.c -o function_V1.out
+   41  nano function_V1.c 
+   42  gcc function_V1.c -o function_V1.out
+   43  ./function_V1.out 
+   44  history > history_mariss_10.txt
