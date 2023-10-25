@@ -1,0 +1,123 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  clone https://github.com/MarissZZZ/RTR105
+    4  git clone https://github.com/MarissZZZ/RTR105
+    5  mkdir Class_11
+    6  rd Class_11/
+    7  ls
+    8  rm Class_11/
+    9  rmdir Class_11/
+   10  ls
+   11  cd RTR105/
+   12  mkdir Class_11
+   13  nano foo.h
+   14  nano foo.c
+   15  nano main.c
+   16  $ gcc -Wall -c foo.c
+   17  gcc -Wall -c foo.c
+   18  ls
+   19  rm foo.c
+   20  rm foo.h
+   21  rm foo.o
+   22  rm main.c
+   23  ls
+   24  cd Class_11
+   25  nano foo.h
+   26  nano foo.c
+   27  nano main.c
+   28  gcc -Wall -c foo.c
+   29  gcc -Wall -c main.c
+   30  ls
+   31  gcc -o testprogram foo.o main.o
+   32  ls
+   33  ./testprogram 
+   34  nano main.c
+   35  nano foo.c
+   36  nano main.c
+   37  gcc -o testprogram foo.o main.o
+   38  ./testprogram 
+   39  gcc -Wall -c foo.c
+   40  nano foo.c
+   41  nano foo.h
+   42  nano foo.c
+   43  nano main.c
+   44  gcc -Wall -c foo.c
+   45  nano main.c
+   46  nano foo.c
+   47  gcc -Wall -c foo.c
+   48  nano foo.c
+   49  nano main.c
+   50  gcc -Wall -c foo.c
+   51  gcc -Wall -c main.c
+   52  nano foo.c
+   53  nano main.c
+   54  gcc -Wall -c foo.c
+   55  gcc -Wall -c main.c
+   56  nano main.c
+   57  gcc -Wall -c foo.c
+   58  gcc -Wall -c main.c
+   59  nano main.c
+   60  gcc -Wall -c foo.c
+   61  gcc -Wall -c main.c
+   62  gcc -o testprogram foo.o main.o
+   63  ./testprogram 
+   64  nano main.c
+   65  gcc -Wall -c main.c
+   66  gcc -o testprogram foo.o main.o
+   67  ./testprogram 
+   68  nano foo.c
+   69  nano main.c
+   70  gcc -Wall -c foo.c
+   71  nano foo.c
+   72  gcc -Wall -c foo.c
+   73  gcc -Wall -c main.c
+   74  nano main.c
+   75  gcc -Wall -c main.c
+   76  gcc -o testprogram foo.o main.o
+   77  ./testprogram 
+   78  nano arrays.c
+   79  gcc arrays.c -o arrays.out
+   80  ./arrays.out 
+   81  nano arrays.c
+   82  gcc arrays.c -o arrays.out
+   83  ./arrays.out 
+   84  nano pointers.c
+   85  gcc array.c -o arrays.out
+   86  gcc pointers.c -o pointers.out
+   87  ./pointers.out 
+   88  nano teikumskaits.c
+   89  gcc teikumskaits.c -o teikumskaits.out
+   90  nano teikumskaits.c
+   91  gcc teikumskaits.c -o teikumskaits.out
+   92  nano teikumskaits.c
+   93  gcc teikumskaits.c -o teikumskaits.out
+   94  nano teikumskaits.c
+   95  gcc teikumskaits.c -o teikumskaits.out
+   96  ./teikumskaits.out 
+   97  nano teikumskaits.c
+   98  gcc teikumskaits.c -o teikumskaits.out
+   99  ./teikumskaits.out 
+  100  nano teikumskaits.c
+  101  gcc teikumskaits.c -o teikumskaits.out
+  102  ./teikumskaits.out 
+  103  nano teikumskaits.c
+  104  gcc teikumskaits.c -o teikumskaits.out
+  105  ./teikumskaits.out 
+  106  nano teikumskaits.c
+  107  gcc teikumskaits.c -o teikumskaits.out
+  108  nano teikumskaits.c
+  109  gcc teikumskaits.c -o teikumskaits.out
+  110  ./teikumskaits.out 
+  111  nano teikumskaits.c
+  112  gcc teikumskaits.c -o teikumskaits.out
+  113  nano teikumskaits.c
+  114  gcc teikumskaits.c -o teikumskaits.out
+  115  ./teikumskaits.out 
+  116  nano teikumskaits.c
+  117  gcc teikumskaits.c -o teikumskaits.out
+  118  ./teikumskaits.out 
+  119  history > history_mariss_11.txt
+  120  cd ..
+  121  history -a
+  122  ./git-upload
+  123  history > history_mariss_11_.txt
