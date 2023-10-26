@@ -23,9 +23,9 @@ Studija kursa Datormācība (pamatkurss) elektroniskā klade
      - 1.1.Piemērs
         - 1.1.1.Piemērs
  
-> Igli programmējot nedrīkst aizmirst padzerties H<sub>2</sub>O
+> Ilgi programmējot nedrīkst aizmirst padzerties H<sub>2</sub>O
 
-~Piemērs ar atdzīmēšanu:~
+####Piemērs ar atdzīmēšanu:
 
 - [x] Piemērs1
 - [ ] Piemērs2 :tada:
