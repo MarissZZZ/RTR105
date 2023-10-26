@@ -15,10 +15,12 @@ Studija kursa Datormācība (pamatkurss) elektroniskā klade
 
 - ***Piemērs5***
  
-### Dažādi saraksta piemēri:
+### Dažādi saraksta piemēri saraksts<sup>st</sup>:
   1. Piemērs
-   - Piemērs 1<sup>st</sup>
-     - Piemērs 2
+   - 1.Piemērs 
+     - 1.1.Piemērs
+        - 1.1.1.Piemērs
+ 
 > Man ikdienā ir jāmēģīna dzert vairāk H<sub>2</sub>O
 
 - [x] Mācos formatēt readme.md
