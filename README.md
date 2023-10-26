@@ -1,7 +1,7 @@
 # RTR105
 Studija kursa Datormācība (pamatkurss) elektroniskā klade
 
-<img src="https://1.bp.blogspot.com/-dTTPn1348NY/WxeZLgJucnI/AAAAAAAAAKo/DN1VIPbQ-FEBtAU3Dc5-62p3DWlo6nLWACLcBGAs/s1600/C.png" width="200" height="200" />
+<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.geeksforgeeks.org%2Finteresting-facts-about-linux%2F&psig=AOvVaw3181UFtzA91Or9rwiLXE68&ust=1698412923923000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPiKx6nnk4IDFQAAAAAdAAAAABAE" width="200" height="200" />
 
 ## Piemērs ar dažādiem formatējumiem:
 
@@ -37,6 +37,7 @@ Piemērs[^1]
 ### Piemērs ar emoji:
 @MarissZZZ :+1: Piemērs ar emoji :sunglasses:
 
+## SHELL valodas skaidrojumi:
 
 **whoami** - kas es esmu (print effective userid)
 
