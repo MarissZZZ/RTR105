@@ -3,7 +3,7 @@ Studija kursa Datormācība (pamatkurss) elektroniskā klade
 
 <img src="https://1.bp.blogspot.com/-dTTPn1348NY/WxeZLgJucnI/AAAAAAAAAKo/DN1VIPbQ-FEBtAU3Dc5-62p3DWlo6nLWACLcBGAs/s1600/C.png" width="200" height="200" />
 
-### Piemērs ar dažādiem formatējumiem:
+## Piemērs ar dažādiem formatējumiem:
 
 - _Piemērs1_
 
@@ -15,9 +15,10 @@ Studija kursa Datormācība (pamatkurss) elektroniskā klade
 
 - ***Piemērs5***
  
-1. Neliela informācija par mani:
-   - Pirmajā nodarbībā bija mana 1<sup>st</sup> reize ar Linux
-     - Iepriekš biju programmējis Python, Java-Script valodās
+### Dažādi saraksta piemēri:
+  1. Piemērs
+   - Piemērs 1<sup>st</sup>
+     - Piemērs 2
 > Man ikdienā ir jāmēģīna dzert vairāk H<sub>2</sub>O
 
 - [x] Mācos formatēt readme.md
