@@ -1,7 +1,7 @@
 # RTR105
 Studija kursa Datormācība (pamatkurss) elektroniskā klade
 
-<img src="https://media.geeksforgeeks.org/wp-content/uploads/s2-1.jpg" width="200" height="200" />
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/s2-1.jpg" width="300" height="200" />
 
 ## Piemērs ar dažādiem formatējumiem:
 
