@@ -15,38 +15,26 @@ Studija kursa Datormācība (pamatkurss) elektroniskā klade
 
 - ***Piemērs5***
  
-### Dažādi saraksta piemēri saraksts<sup>st</sup>:
+### Dažādi saraksta piemēri 1<sup>st</sup>:
   1. Piemērs
+  2. Piemērs
+  3. Piemērs
    - 1.Piemērs 
      - 1.1.Piemērs
         - 1.1.1.Piemērs
  
-> Man ikdienā ir jāmēģīna dzert vairāk H<sub>2</sub>O
+> Igli programmējot nedrīkst aizmirst padzerties H<sub>2</sub>O
 
-- [x] Mācos formatēt readme.md
-- [ ] Būšu pilnībā visu apguvis :tada:
+~Piemērs ar atdzīmēšanu:~
 
-@MarissZZZ :+1: Readme failu formatēt ir jautri! :sunglasses:
+- [x] Piemērs1
+- [ ] Piemērs2 :tada:
 
-Mariss[^1].
+Piemērs[^1]
+[^1]: Paskaidrojums
 
-Garšo konfektes[^2].
+@MarissZZZ :+1: Piemērs ar emoji :sunglasses:
 
-[^1]: Gandrīz divi metri garš. 
-Skruļaini mati.
-
-[^2]: Īpaši Haribo!
-
-> [!NOTE]
-> Neliela informācija par mani.
-
-> [!IMPORTANT]
-> Infromācija izmantota tikai lai trenētots formatēt.
-
-> [!WARNING]
-> Nepublicēt šo informāciju citur.
-
-# ${Shell\ komandu\ {\color{red}nozīme}}\ :$
 
 whoami - kas es esmu (print effective userid)
 
@@ -169,3 +157,12 @@ ls -lt *.txt
 history
 
 history > history_mariss.txt
+
+> [!NOTE]
+> Neliela elektroniskā klase priekš programmēšanas.
+
+> [!IMPORTANT]
+> Infromācija izmantota tikai, lai trenētots formatēt.
+
+> [!WARNING]
+> Nepublicēt šo informāciju citur.
