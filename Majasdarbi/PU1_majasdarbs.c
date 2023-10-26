@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// https://stackoverflow.com/questions/40554617/while-getchar-n
+
 int main() {
     
     long long int n1, n2, rezultats; //tā kā rezultāts pārsniedz skaitli, ko var saglabāt 32-bitu veselā skaitlī, tad jāizmanto 64-bitu vesela skaitļa datu tips
