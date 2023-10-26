@@ -1,7 +1,7 @@
 # RTR105
 Studija kursa Datormācība (pamatkurss) elektroniskā klade
 
-<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.geeksforgeeks.org%2Finteresting-facts-about-linux%2F&psig=AOvVaw3181UFtzA91Or9rwiLXE68&ust=1698412923923000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPiKx6nnk4IDFQAAAAAdAAAAABAE" width="200" height="200" />
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/s2-1.jpg" width="200" height="200" />
 
 ## Piemērs ar dažādiem formatējumiem:
 
