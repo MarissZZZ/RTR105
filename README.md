@@ -1,13 +1,13 @@
 # RTR105
 Studija kursa Datormācība (pamatkurss) elektroniskā klade
 
+<img src="https://1.bp.blogspot.com/-dTTPn1348NY/WxeZLgJucnI/AAAAAAAAAKo/DN1VIPbQ-FEBtAU3Dc5-62p3DWlo6nLWACLcBGAs/s1600/C.png" width="400" height="400" />
+
 ## Pirmās nodarbības atziņas
 
 **Esmu nedaudz satraucies**
-
-<img src="https://vectorportal.com/storage/KkAWxEsRaTRjdsTVPoNJFrR9Hqrxk9j7iYeVqfsz.jpg" width="400" height="400" />
-
 ### Mans mērķis
+
 - _Iemācīties izprast C valodu_
 
 - *Izbaudīt studijas universitātē*
