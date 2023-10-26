@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// https://stackoverflow.com/questions/40554617/while-getchar-n
+//https://stackoverflow.com/questions/40554617/while-getchar-n
 
 int main() {
     
