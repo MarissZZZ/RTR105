@@ -3,20 +3,17 @@ Studija kursa Datormācība (pamatkurss) elektroniskā klade
 
 <img src="https://1.bp.blogspot.com/-dTTPn1348NY/WxeZLgJucnI/AAAAAAAAAKo/DN1VIPbQ-FEBtAU3Dc5-62p3DWlo6nLWACLcBGAs/s1600/C.png" width="200" height="200" />
 
-## Piemēri:
-**Saraksta piemērs:**
+### Piemērs ar dažādiem formatējumiem:
 
-### Mans mērķis
+- _Piemērs1_
 
-- _Iemācīties izprast C valodu_
+- *Piemērs2*
 
-- *Izbaudīt studijas universitātē*
+- ~~Piemērs3~~
 
-- ~~Nervozēt~~
+- **Piemērs4**
 
-- **Ļoti _iuzbaudīt_ procesu, būdams students**
-
-- ***Cītīgi strādāt un mācīties***
+- ***Piemērs5***
  
 1. Neliela informācija par mani:
    - Pirmajā nodarbībā bija mana 1<sup>st</sup> reize ar Linux
