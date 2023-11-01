@@ -1,0 +1,66 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  clone git https://github.com/MarissZZZ/RTR105
+    4  git clone https://github.com/MarissZZZ/RTR105
+    5  ls
+    6  cd RTR105/
+    7  mkdir Class_13
+    8  cd Class_13
+    9  nano fopen_test.c
+   10  gcc fopen_test.c -o fopen_test.out
+   11  ./fopen_test.out 
+   12  echo
+   13  cat fopen_test.out
+   14  clear
+   15  ls -lt
+   16  echo$?
+   17  $echo?
+   18  nano fopen_test.c
+   19  gcc fopen_test.c -o fopen_test.out
+   20  nano fopen_test.c
+   21  gcc fopen_test.c -o fopen_test.out
+   22  ./fopen_test.out 
+   23  nano fopen_test.c
+   24  gcc fopen_test.c -o fopen_test.out
+   25  nano fopen_test.c
+   26  gcc fopen_test.c -o fopen_test.out
+   27  nano fopen_test.c
+   28  gcc fopen_test.c -o fopen_test.out
+   29  ./fopen_test.out 
+   30  nano fclose_test.c
+   31  gcc fclose_test.c -o fclose_test.out
+   32  ./fclose_test.out 
+   33  ls
+   34  cat myfile.txt 
+   35  nano fclose_test.c
+   36  gcc fclose_test.c -o fclose_test.out
+   37  ./fclose_test.out 
+   38  cat myfile.txt 
+   39  ./fopen_test.out 
+   40  cat myfile.txt 
+   41  ls -lt
+   42  ./fclose_test.out 
+   43  ls -lt
+   44  cat myfile.txt 
+   45  nano fprintf_test.c
+   46  gcc fprintf_test.c -o fprintf_test.out
+   47  ./fprintf_test.out 
+   48  nano fprintf_test.c
+   49  cat myfile.txt 
+   50  nano fprintf_test.c
+   51  gcc fprintf_test.c -o fprintf_test.out
+   52  nano fprintf_test.c
+   53  gcc fprintf_test.c -o fprintf_test.out
+   54  ./fprintf_test.out 
+   55  cat myfile.txt 
+   56  ./fprintf_test.out 
+   57  cat myfile.txt 
+   58  nano fwrite_test.c
+   59  gcc fwrite_test.c -o fwrite_test.out
+   60  ./fwrite_test.out 
+   61  cat myfile.bin
+   62  nano fwrite_test.c
+   63  history > mariss_history_test_13.txt
+   64  ls
+   65  cd ..
+   66  history > history_mariss_13.txt
