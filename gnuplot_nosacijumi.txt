@@ -1,0 +1,48 @@
+http://www.gnuplot.info/
+https://gnuplot.sourceforge.net/demo/
+http://www.gnuplot.info/docs_5.2/Gnuplot_5.2.pdf
+
+1. piemēru izmēģināšana komandrindā:
+gnuplot -ievada šādu komandu
+plot sin(x) -piemēram attēlot sin(x) funkciju
+
+2. piemēru izmēģināšana ar skriptu palīdzību
+nano gnuplot_example.gp
+gnuplot_example.gp: 
+#!/usr/local/bin/gnuplot -persist
+plot sin(x)
+./gnuplot_example.gp
+
+3. grafika nosaukuma uzdošana
+set title "Mans grafiks"
+
+4. asis robežu noteikšana
+set xrange[0:10] - noteikt asij robežas
+set yrange[0:5]
+
+5. asis nosaukumu uzdošana
+set xlabel "X ass"
+set ylabel "Y ass" 
+
+6. režģa pievienošana (minor grid, main grid)
+set grid
+
+7. vairākas vertikālas asis (pa labi, pa kreisi)
+set x2tics
+set x2label
+pievienot otu x asi
+
+8. punktu (marķieru) zīmēšana (atbilstoši diskrērtiem mērījumu rezultātiem)
+plot "datu_fails.dat" with points
+
+9. datu paņemšana no faila
+plot "datu_fails.dat"
+
+10. grafiku leģenda
+set key at 5,4
+set key box
+
+11. grafika saglabāšana failā (png)
+set terminal png
+set output 'sin_grafiks.png'
+plot sin(x)
