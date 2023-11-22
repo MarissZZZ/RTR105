@@ -1,0 +1,108 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  gcc funkcijas.c -o funckijas.out
+    4  cd Funkcija/
+    5  gcc funkcijas.c -o funkcijas.out
+    6  gcc funkcijas.c -o funkcijas.out -lm
+    7  ./funkcijas.out 
+    8  gcc funkcijas.c -o funkcijas.out -lm
+    9  ./funkcijas.out 
+   10  gcc funkcijas.c -o funkcijas.out -lm
+   11  ./funkcijas.out 
+   12  gcc funkcijas.c -o funkcijas.out -lm
+   13  ./funkcijas.out 
+   14  gcc funkcijas.c -o funkcijas.out -lm
+   15  ./funkcijas.out 
+   16  gcc funkcijas.c -o funkcijas.out -lm
+   17  ./funkcijas.out 
+   18  gcc funkcijas.c -o funkcijas.out
+   19  gcc funkcijas.c -o funkcijas.out -lm
+   20  ./funkcijas.out 
+   21  gcc funkcijas.c -o funkcijas.out -lm
+   22  ./funkcijas.out 
+   23  gcc funkcijas.c -o funkcijas.out -lm
+   24  ./funkcijas.out 
+   25  gcc funkcijas.c -o funkcijas.out -lm
+   26  ./funkcijas.out 
+   27  gcc funkcijas.c -o funkcijas.out -lm
+   28  ./funkcijas.out 
+   29  gcc funkcijas.c -o funkcijas.out -lm
+   30  ./funkcijas.out 
+   31  gcc funkcijas.c -o funkcijas.out -lm
+   32  ./funkcijas.out 
+   33  gcc funkcijas.c -o funkcijas.out -lm
+   34  ./funkcijas.out 
+   35  gcc funkcijas.c -o funkcijas.out -lm
+   36  ./funkcijas.out 
+   37  gcc funkcijas.c -o funkcijas.out -lm
+   38  ./funkcijas.out 
+   39  gcc funkcijas.c -o funkcijas.out -lm
+   40  ./funkcijas.out 
+   41  gcc funkcijas.c -o funkcijas.out -lm
+   42  ./funkcijas.out 
+   43  cd ..
+   44  cd darbi/
+   45  gcc 1ld_series.c -o series.out
+   46  gcc 1ld_series.c -o series.out -lm
+   47  ./series.out 
+   48  gcc 1ld_series.c -o series.out 
+   49  gcc 1ld_series.c -o series.out -lm
+   50  ./series.out 
+   51  gcc 1ld_series.c -o series.out -lm
+   52  ./series.out 
+   53  gcc 1ld_series.c -o series.out -lm
+   54  ./series.out 
+   55  gcc 1ld_series.c -o series.out -lm
+   56  ./series.out 
+   57  gcc 1ld_series.c -o series.out
+   58  gcc 1ld_series.c -o series.out -lm
+   59  ./series.out 
+   60  gcc 1ld_series.c -o series.out -lm
+   61  ./series.out 
+   62  gcc 1ld_series.c -o series.out -lm
+   63  ./series.out 
+   64  gcc 1ld_series.c -o series.out -lm
+   65  ./series.out 
+   66  gcc 1ld_series.c -o series.out -lm
+   67  ./series.out 
+   68  gcc 1ld_series.c -o series.out -lm
+   69  ./series.out 
+   70  gcc 1ld_series.c -o series.out -lm
+   71  ./series.out 
+   72  gcc 1ld_series.c -o series.out -lm
+   73  ./series.out 
+   74  gcc 1ld_series.c -o series.out -lm
+   75  ./series.out 
+   76  gcc 1ld_series.c -o series.out -lm
+   77  ./series.out 
+   78  gcc 1ld_series.c -o series.out -lm
+   79  ./series.out 
+   80  gcc 1ld_series.c -o series.out -lm
+   81  ./series.out 
+   82  gcc 1ld_series.c -o series.out -lm
+   83  ./series.out 
+   84  gcc 1ld_series.c -o series.out -lm
+   85  ./series.out 
+   86  gcc 1ld_series.c -o series.out -lm
+   87  ./series.out 
+   88  gcc 1ld_series.c -o series.out -lm
+   89  ./series.out 
+   90  gcc 1ld_series.c -o series.out -lm
+   91  ./series.out 
+   92  gcc 1ld_series.c -o series.out -lm
+   93  ./series.out 
+   94  gcc 1ld_series.c -o series.out -lm
+   95  ./series.out 
+   96  cd ..
+   97  cd Funkcija/
+   98  gcc funkcijas.c -o funkcijas.out
+   99  gcc funkcijas.c -o funkcijas.out lm
+  100  gcc funkcijas.c -o funkcijas.out -lm
+  101  ./funkcijas.out 
+  102  gcc funkcijas.c -o funkcijas.out -lm
+  103  ./funkcijas.out 
+  104  cd ..
+  105  cd darbi/
+  106  gcc 1ld_series.c -o series.out -lm
+  107  ./series.out 
+  108  history > history_mariss_lb1.txt
