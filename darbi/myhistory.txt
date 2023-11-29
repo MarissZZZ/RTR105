@@ -1,0 +1,151 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  cd darbi/
+    4  gcc gala.c -o gala.out
+    5  gcc gala.c -o gala.out -lm
+    6  ./gala.out 
+    7  gcc gala.c -o gala.out -lm
+    8  ./gala.out 
+    9  gcc gala.c -o gala.out -lm
+   10  ./gala.out 
+   11  gcc gala.c -o gala.out -lm
+   12  ./gala.out 
+   13  gcc numdiff.c -o numdiff.out -lm
+   14  ./numdiff.out 
+   15  ./numdiff.out > derivative.dat
+   16  ./derivative.gp
+   17  chmod 744 derivative.gp
+   18  ./derivative.gp 
+   19  gcc gala.c -o gala.out -lm
+   20  ./gala.out 
+   21  gcc gala.c -o gala.out -lm\
+   22  gcc gala.c -o gala.out -lm
+   23  ./gala.out 
+   24  gcc gala.c -o gala.out -lm
+   25  ./gala.out 
+   26  gcc gala.c -o gala.out -lm
+   27  ./gala.out 
+   28  gcc gala.c -o gala.out -lm
+   29  ./gala.out 
+   30  gcc gala.c -o gala.out -lm
+   31  ./gala.out 
+   32  gcc gala.c -o gala.out -lm
+   33  ./gala.out 
+   34  gcc gala.c -o gala.out -lm
+   35  ./gala.out 
+   36  gcc gala.c -o gala.out -lm
+   37  ./gala.out 
+   38  gcc gala.c -o gala.out -lm
+   39  ./gala.out 
+   40  gcc gala.c -o gala.out -lm
+   41  ./gala.out 
+   42  gcc gala.c -o gala.out -lm
+   43  ./gala.out 
+   44  gcc gala.c -o gala.out -lm
+   45  ./gala.out 
+   46  gcc gala.c -o gala.out -lm
+   47  ./gala.out 
+   48  gcc gala.c -o gala.out -lm
+   49  ./gala.out 
+   50  gcc gala.c -o gala.out -lm
+   51  ./gala.out 
+   52  gcc gala.c -o gala.out -lm
+   53  ./gala.out 
+   54  gcc gala.c -o gala.out -lm
+   55  ./gala.out 
+   56  gcc gala.c -o gala.out -lm
+   57  ./gala.out 
+   58  gcc gala.c -o gala.out -lm
+   59  ./gala.out 
+   60  gcc gala.c -o gala.out -lm
+   61  ./gala.out 
+   62  gcc gala.c -o gala.out -lm
+   63* 
+   64  gcc gala.c -o gala.out -lm
+   65  ./gala.out 
+   66  gcc gala.c -o gala.out -lm
+   67  ./gala.out 
+   68  gcc gala.c -o gala.out -lm
+   69  ./gala.out 
+   70  gcc gala.c -o gala.out -lm
+   71  ./gala.out 
+   72  gcc gala.c -o gala.out -lm
+   73  ./gala.out 
+   74  gcc gala.c -o gala.out -lm
+   75  ./gala.out 
+   76  gcc gala.c -o gala.out -lm
+   77  ./gala.out 
+   78  gcc gala.c -o gala.out -lm
+   79  ./gala.out 
+   80  gcc gala.c -o gala.out -lm
+   81  ./gala.out 
+   82  gcc gala.c -o gala.out -lm
+   83  ./gala.out 
+   84  gcc gala.c -o gala.out -lm
+   85  ./gala.out 
+   86  gcc gala.c -o gala.out -lm
+   87  ./gala.out 
+   88  gcc gala.c -o gala.out -lm
+   89  ./gala.out 
+   90  gcc gala.c -o gala.out -lm
+   91  ./gala.out 
+   92  gcc gala.c -o gala.out -lm
+   93  ./gala.out 
+   94  gcc gala.c -o gala.out -lm
+   95  ./gala.out 
+   96  gcc gala.c -o gala.out -lm\
+   97  gcc gala.c -o gala.out -lm
+   98  ./gala.out 
+   99  gcc gala.c -o gala.out -lm
+  100  ./gala.out 
+  101  gcc gala.c -o gala.out -lm
+  102  ./gala.out 
+  103  gcc gala.c -o gala.out -lm
+  104  ./gala.out 
+  105  gcc gala.c -o gala.out -lm
+  106  ./gala.out 
+  107  gcc gala.c -o gala.out -lm
+  108  ./gala.out 
+  109  gcc gala.c -o gala.out -lm
+  110  ./gala.out 
+  111  gcc gala.c -o gala.out -lm
+  112  ./gala.out 
+  113  gcc gala.c -o gala.out -lm
+  114  ./gala.out 
+  115  gcc gala.c -o gala.out -lm
+  116  ./gala.out 
+  117  gcc gala.c -o gala.out -lm
+  118  ./gala.out 
+  119  gcc gala.c -o gala.out -lm
+  120  ./gala.out 
+  121  gcc gala.c -o gala.out -lm
+  122  ./gala.out 
+  123  gcc gala.c -o gala.out -lm
+  124  ./gala.out 
+  125  gcc gala.c -o gala.out -lm
+  126  ./gala.out 
+  127  gcc gala.c -o gala.out -lm
+  128  ./gala.out 
+  129  gcc gala.c -o gala.out -lm
+  130  ./gala.out 
+  131  gcc gala.c -o gala.out -lm
+  132  ./gala.out 
+  133  gcc gala.c -o gala.out -lm
+  134  ./gala.out 
+  135  gcc gala.c -o gala.out -lm
+  136  ./gala.out 
+  137  gcc gala.c -o gala.out -lm
+  138  ./gala.out 
+  139  gcc gala.c -o gala.out -lm
+  140  ./gala.out 
+  141  gcc gala.c -o gala.out -lm
+  142  ./gala.out 
+  143  gcc gala.c -o gala.out -lm
+  144  ./gala.out 
+  145  gcc derivative.c -o derivative.out
+  146  gcc derivative.c -o derivative.out -lm
+  147  ./derivative.out
+  148  ./derivative.gp
+  149  git config --global user.name MarissZZZ
+  150  git config --global user.email marisszuss@gmail.com
+  151  history > myhistory.txt
