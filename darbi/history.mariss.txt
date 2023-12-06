@@ -1,0 +1,29 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  cd darbi/
+    4  gcc 2ld_roots.c -o roots.out
+    5  gcc 2ld_roots.c -o roots.out -lm
+    6  ./roots.out 
+    7  gcc test.c -o test.out -lm
+    8  ./test.out 
+    9  gcc test.c -o test.out -lm
+   10  ./test.out 
+   11  gcc test.c -o test.out -lm
+   12  ./test.out 
+   13  gnuplot sinkvadrats.gp
+   14  ./test.out 
+   15  gcc test.c -o test.out -lm
+   16  ./test.out 
+   17  gcc test.c -o test.out -lm
+   18  ./test.out 
+   19  gcc test.c -o test.out -lm
+   20  ./test.out 
+   21  gcc test.c -o test.out -lm
+   22  ./test.out 
+   23  gcc test.c -o test.out -lm
+   24  ./test.out 
+   25  gcc test.c -o test.out -lm
+   26  ./test.out 
+   27  gcc test.c -o test.out -lm
+   28  ./test.out 
+   29  history > history.mariss.txt
