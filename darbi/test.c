@@ -3,12 +3,12 @@
 #include <math.h>
 #include <stdio.h>
 
-float input(const char *vertiba)
+float input(const char *ievade)
 {
-    float value = 0;
-    printf("%s", vertiba);
-    scanf("%f", &value);
-    return value;
+    float vertiba = 0;
+    printf("%s", ievade);
+    scanf("%f", &vertiba);
+    return vertiba;
 }
 
 float modified_sin_kvadrats(float x, float A)
@@ -50,7 +50,7 @@ int main()
 
     printf("\n");
     printf("Iteraciju skaits, lai sasniegtu ievadito precizitati: %d\n", i);
-    printf("Sakne ir, kad x=%.6f, sin(%.6f)^2 - %.6f=%.6f\n", x, x, c, modified_sin_kvadrats(x, c));
+    printf("Sakne atrodas pie x=%.6f, jo sin(%.6f)^2 ir %.6f\n", x, x, modified_sin_kvadrats(x, c));
 
     return 0;
 }
