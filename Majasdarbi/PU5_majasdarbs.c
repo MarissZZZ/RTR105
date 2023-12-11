@@ -1,7 +1,5 @@
 #include <stdio.h>
 
-// Naturals skaitlis ir vesels skaitlis un lielaks par 0
-
 int main() {
 
     int skaitlis;
@@ -18,48 +16,43 @@ int main() {
         scanf(" %c", &datuTips);
     }
     
-    switch(datuTips) { // izpilda atbilstosi no ievaditaa
+
+    switch(datuTips) {
         case 'c': {
             char rezultats = 1;
-            char i = 1;
-            while(i <= skaitlis) {
+            for (char i = 1; i <= skaitlis; ++i) {
                 char parbRezultats = rezultats * i;
                 if (parbRezultats / i != rezultats) { // Overflows
                     printf("Error: nevar aprekinat faktorialu ar char datu tipu.\n");
                     return 1;
                 }
                 rezultats = parbRezultats;
-                i++;
             }
             printf("Faktorials izmantojot datu tipu char: %hhd\n", (char)rezultats);
             break;
         }
         case 'i': {
             int rezultats = 1;
-            int i = 1;
-            while(i <= skaitlis) {
+            for (int i = 1; i <= skaitlis; ++i) {
                 int parbRezultats = rezultats * i;
                 if (parbRezultats / i != rezultats) { // Overflows
                     printf("Error: nevar aprekinat faktorialu ar int datu tipu.\n");
                     return 1;
                 }
                 rezultats = parbRezultats;
-                i++;
             }
             printf("Faktorials izmantojot datu tipu int: %d\n", (int)rezultats);
             break;
         }
         case 'l': {
             long long rezultats = 1;
-            long long i = 1;
-            while(i <= skaitlis) {
+            for (long long i = 1; i <= skaitlis; ++i) {
                 long long parbRezultats = rezultats * i;
                 if (parbRezultats / i != rezultats) { // Overflows
                     printf("Error: nevar aprekinat faktorialu ar long long datu tipu.\n");
                     return 1;
                 }
                 rezultats = parbRezultats;
-                i++;
             }
             printf("Faktorials izmantojot datu tipu long long: %lld\n", rezultats);
             break;
