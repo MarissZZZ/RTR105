@@ -1,10 +1,10 @@
 #!/usr/bin/gnuplot --persist
 
-# Set the output file format and name
+# the output file format and name
 set terminal png
-set output 'sin_squared_plot.png'
+set output 'sin_squared.png'
 
-# Set the x-axis range
+# the x-axis range
 set xrange [-2*pi:2*pi]
 
 # the y-axis range
