@@ -7,17 +7,17 @@ double lietotaja_sinuss_kvadrats(long double x) {
     int k = 1;
     a = (pow(-1, k+1) * 2 * x * x) / (1. * 2);
     S = a;
-    printf("x=%.2Lf\ta1  =%.2Lf\tS1=%.2Lf\n", x, a, S);
+    printf("x=%.2Lf\ta1  =%.30Lf\tS1=%.30Lf\n", x, a, S);
 
     while (k < 500) {
         k++;
         a = (a * (-2) * x * x) / (k * ((2*k)-1));
         S = S + a;
         if (k == 499) {
-            printf("x=%.2Lf\ta499=%.2Lf\tS499=%.2Lf\n", x, a, S);
+            printf("x=%.2Lf\ta%d=%.30Le\tS%d=%.30Lf\n", x, k, a, k, S);
         }
         if (k == 500) {
-            printf("x=%.2Lf\ta500=%.2Lf\tS500=%.2Lf\n", x, a, S);
+            printf("x=%.2Lf\ta%d=%.30Le\tS%d=%.30Lf\n", x, k, a, k, S);
         }
     }
 
@@ -32,10 +32,10 @@ int main() {
     scanf("%Lf", &x);
 
     y = sin(x) * sin(x);
-    printf("Standarta funkcija: y=sin(%.2Lf)*sin(%.2Lf)=%.2Lf\n", x, x, y);
+    printf("Standarta funkcija: y=sin(%.2Lf)*sin(%.2Lf)=%.30Lf\n", x, x, y);
 
     yy = lietotaja_sinuss_kvadrats(x);
-    printf("y=sinuss(%.2Lf)*sinuss(%.2Lf) ar summu=%.2Lf\n", x, x, yy);
+    printf("y=sinuss(%.2Lf)*sinuss(%.2Lf) ar summu=%.30Lf\n", x, x, yy);
 
     printf("\n%21s\n", "500");
     printf("%40s\n", "————————");
