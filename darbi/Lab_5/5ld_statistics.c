@@ -7,3 +7,5 @@
 // vins iet katrus 2 un iet talak
 // pec pirma apļa pedejais elemnts bus vislielakais, sanak par vienu mazak var parbaudit
 // pec otra pedejie 2
+
+// ar gnuplot jaattelo histofgramma ar cik katrs burts tika attēlots
