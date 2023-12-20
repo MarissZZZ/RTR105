@@ -4,3 +4,6 @@
 // atrod modu. kurs simbols atkartojas, (katrs simbols, cik reizes atkartojas) secibu caurskata vienu reizi
 // burbuļa metode v1 > v2; v1 < v2, maina katrus divus elementus un domā vai apmainīt vai nē no elementu rindas (8 5) 25 --> 5 (8 25)
 // burbuļa metode ir jaimplimentē pašiem, neizmantot gatavas funkcijas
+// vins iet katrus 2 un iet talak
+// pec pirma apļa pedejais elemnts bus vislielakais, sanak par vienu mazak var parbaudit
+// pec otra pedejie 2
