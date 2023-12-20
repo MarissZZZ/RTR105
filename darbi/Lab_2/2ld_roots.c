@@ -15,8 +15,8 @@ int main(){
     funkca = sin(a); funkcb=sin(b);
 
     if(funkca*funkcb>0){
-        printf("Intervaalaa[%.2f;%.2f]sin(x)funkcijai",a,b);
-        printf("saknjunav(vaitaajaairpaarusaknjuskaits)\n");
+        printf("Intervaalaa[%.2f;%.2f] sin(x)funkcijai",a,b);
+        printf("saknju nav (vai taajaa ir paaru saknju skaits)\n");
         return 1;}
 
     printf("sin(%7.3f)=%7.3f\t\t\t\t",a,sin(a));
@@ -33,6 +33,6 @@ int main(){
         printf("sin(%7.3f)=%7.3f\t",x,sin(x));
         printf("sin(%7.3f)=%7.3f\n",b,sin(b));}
 
-    printf("Saakneatrodaspiex=%.3f,josin(x)ir%.3f\n",x,sin(x));
+    printf("Sakne atrodas pie x=%.3f,jo sin(x) ir %.30f\n",x,sin(x));
 
     return 0;}

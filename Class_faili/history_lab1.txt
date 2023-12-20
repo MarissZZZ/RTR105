@@ -1,0 +1,10 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  cd darbi/
+    4  cd Lab_1
+    5  gnuplot
+    6  nano sin_squared.gp 
+    7  ./sin_squared.gp
+    8  chmod 744 sin_squared.gp 
+    9  ./sin_squared.gp 
+   10  history > history_lab1.txt
