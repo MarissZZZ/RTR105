@@ -5,7 +5,7 @@ int main() {
     int skaitlis;
     char datuTips;
 
-    printf("Ievadiet naturalu skaitli: "); // lietotaja ievade
+    printf("Ievadiet naturalu skaitli vai 0: "); // lietotaja ievade
     scanf("%d", &skaitlis);
 
     if (skaitlis < 0) { // parbuada vai ir ievadits naturals skaitlis
@@ -24,11 +24,11 @@ int main() {
                 char parbRezultats = rezultats * i;
                 if (parbRezultats / i != rezultats) { // Overflows
                     printf("Error: nevar aprekinat faktorialu ar char datu tipu.\n");
-                    return 1;
+                    return 1;   
                 }
                 rezultats = parbRezultats;
             }
-            printf("Faktorials izmantojot datu tipu char: %hhd\n", (char)rezultats);
+            printf("Faktorials izmantojot datu tipu char: %hhd\n", rezultats); //hhd signed char
             break;
         }
         case 'i': {
@@ -41,7 +41,7 @@ int main() {
                 }
                 rezultats = parbRezultats;
             }
-            printf("Faktorials izmantojot datu tipu int: %d\n", (int)rezultats);
+            printf("Faktorials izmantojot datu tipu int: %d\n", rezultats); //d integer
             break;
         }
         case 'l': {
@@ -54,7 +54,7 @@ int main() {
                 }
                 rezultats = parbRezultats;
             }
-            printf("Faktorials izmantojot datu tipu long long: %lld\n", rezultats);
+            printf("Faktorials izmantojot datu tipu long long: %lld\n", rezultats); //lld long long int
             break;
         }
         default:
