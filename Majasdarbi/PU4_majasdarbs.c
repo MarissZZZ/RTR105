@@ -31,7 +31,7 @@ int main() {
                 rezultats = parbRezultats;
                 i++;
             }
-            printf("Faktorials izmantojot datu tipu char: %hhd\n", (char)rezultats);
+            printf("Faktorials izmantojot datu tipu char: %hhd\n", rezultats);
             break;
         }
         case 'i': {
@@ -46,7 +46,7 @@ int main() {
                 rezultats = parbRezultats;
                 i++;
             }
-            printf("Faktorials izmantojot datu tipu int: %d\n", (int)rezultats);
+            printf("Faktorials izmantojot datu tipu int: %d\n", rezultats);
             break;
         }
         case 'l': {
