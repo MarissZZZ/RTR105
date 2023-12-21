@@ -13,12 +13,12 @@ int main() {
     printf("Ievadiet tresho burtu: "); // Ievada treso burtu
     scanf(" %c", &burts3);
 
-    char order;
+    char seciba;
 
     printf("Ievadiet 'A' prieksh alfabeeta seciibas vai 'P' - preteeji alfabeta seciibai: "); // Izveelas secibu
-    scanf(" %c", &order);
+    scanf(" %c", &seciba);
 
-    if (order == 'A' || order == 'a') { // Alfabeta seciba
+    if (seciba == 'A' || seciba == 'a') { // Alfabeta seciba
         if (burts1 <= burts2 && burts1 <= burts3) { // Alfabeta seciba
             printf("%c ", burts1);
             if (burts2 <= burts3) {
@@ -41,7 +41,7 @@ int main() {
                 printf("%c %c\n", burts2, burts1);
             }
         }
-    } else if (order == 'P' || order == 'p') {
+    } else if (seciba == 'P' || seciba == 'p') {
         if (burts1 >= burts2 && burts1 >= burts3) { // Preteji alfabeta secibai
             printf("%c ", burts1);
             if (burts2 >= burts3) {
