@@ -15,7 +15,7 @@ int main() {
 
     char order;
 
-    printf("Ievadiet 'A' prieksh alfabeeta seciibas vai 'P' - preteeji ievadiitaijai seciibai: "); // Izveelas secibu
+    printf("Ievadiet 'A' prieksh alfabeeta seciibas vai 'P' - preteeji alfabeta seciibai: "); // Izveelas secibu
     scanf(" %c", &order);
 
     if (order == 'A' || order == 'a') { // Alfabeta seciba
