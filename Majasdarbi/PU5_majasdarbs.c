@@ -8,7 +8,7 @@ int main() {
     printf("Ievadiet naturalu skaitli vai 0: "); // lietotaja ievade
     scanf("%d", &skaitlis);
 
-    if (skaitlis < 0) { // parbuada vai ir ievadits naturals skaitlis
+    if (skaitlis < 0) { // parbuada vai ir ievadits naturals skaitlis vai 0
         printf("Faktoriāls nav definets negativiem skaitliem.\n"); 
         return 1;
     } else {
