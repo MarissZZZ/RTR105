@@ -9,7 +9,8 @@ Attēlā ir parādīts funkcijas `sin²(x)` grafiks, kas attēlots kopā ar tās
 
 ## sin²(x) aproksimācija ar summu
 
-`
+Sākumā tika dota funkcijas `sin²(x)` aproksimācija ar summu:
+![sin(x)^2 funkcija aproksimācija ar summu](images/SinKvSum.JPEG)
 
 ## Programmas koda analīze
 
