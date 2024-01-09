@@ -13,21 +13,25 @@ float input(const char *ievade)
 
 float modified_sin_kvadrats(float x, float A)
 {
-    return sin(x) * sin(x) - A;
+    return pow(sin(x), 2) - A;
 }
 
 int main()
 {
     float a = input("Ludzu ievadiet a - apaksejo vertibu intervala:\n");
     float b = input("Ludzu ievadiet b - augsejo vertibu intervala:\n");
-    const float c = input("Ludzu ievadiet c - nobiides vertibu [0, 1]:\n");
+    const float c = input("Ludzu ievadiet c - nobiides vertibu:\n");
     const float delta = input("Ludzu ievadiet precizitati deltai (piem. 0.0001):\n");
+
+    //float funka, funkb;
 
     const float sakumvert = modified_sin_kvadrats(a, c);
 
+    //unka = sin(x) * sin(x) - A; 
+
     int i = 0;
 
-    if (modified_sin_kvadrats(a, c) * modified_sin_kvadrats(b, c) > 0)
+    if ((modified_sin_kvadrats(a, c) * modified_sin_kvadrats(b, c)) < 0)
     {
         printf("Nav saknes sin(x)^2, c = %.3f intervalaa [%.3f;%.3f]\n", c, a, b);
         return 0;
@@ -38,7 +42,7 @@ int main()
     {
         i++;
         x = (a + b) / 2;
-        if (sakumvert * modified_sin_kvadrats(x, c) > 0)
+        if (sakumvert  * modified_sin_kvadrats(x, c) >  0)
         {
             a = x;
         }
