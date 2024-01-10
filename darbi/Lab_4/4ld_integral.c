@@ -1,30 +1,58 @@
-#undef __STRICT_ANSI__
+#include <stdio.h>
+#include <math.h>
 
-#include<stdio.h>
-#include<math.h>
+// Funkcija, lai aprēķinātu sin(x)^2
+double f(double x) {
+    return sin(x) * sin(x);
+}
 
-//aproksimēt
-//artaisnstūriemmēģinaaprēķinātlaukumu.
-//integral1=integral2+2eps
-//wolframalphaintegratesin^2(x)from-2pito2pi
-
-void main(){
-
-    float a=0.,b=M_PI/2,eps=1.e-3,h,integr1=0.,integr2;
-    int k,n=2;
-
-    integr2=(b-a)*(sin(a)+sin(b))/n; //(b−a)/2.∗sin(a)+(b−a)/2.∗sin(b);
-    while(fabs(integr2-integr1)>eps)
-    {
-        n*=2;
-        h=(b-a)/n;
-        integr1=integr2;
-        integr2=0.;
-        for(k=0;k<n;k++)
-        {
-            integr2+=h*sin(a+(k+0.5)*h);
-        }
-    printf("Integraalja veertiiba:%.2f\n",integr2);    
+// Taisnstūra metode 
+double rectangle_method(double a, double b, int n) {
+    double h = (b - a) / n;
+    double area = 0.0;
+    for (int i = 0; i < n; i++) {
+        area += f(a + i * h + h / 2);
     }
-    printf("Integraalja veertiiba:%.2f\n",integr2);
+    return area * h;
+}
+
+// Trapeces metode 
+double trapezoidal_method(double a, double b, int n) {
+    double h = (b - a) / n;
+    double sum = (f(a) + f(b)) / 2.0;
+    for (int i = 1; i < n; i++) {
+        sum += f(a + i * h);
+    }
+    return sum * h;
+}
+
+// Simpsona metode
+double simpsons_method(double a, double b, int n) {
+    double h = (b - a) / n;
+    double sum = f(a) + f(b);
+    for (int i = 1; i < n; i++) {
+        double x = a + i * h;
+        sum += (i % 2 == 0 ? 2 : 4) * f(x);
+    }
+    return sum * h / 3;
+}
+
+int main() {
+    double a, b;
+    int n;
+    
+    // ievada vērtības integrācijas robežām un precizitātei
+    printf("Ievadiet integrācijas apakšējo robežu [a-b] (a): ");
+    scanf("%lf", &a);
+    printf("Ievadiet integrācijas augšējo robežu [a-b] (b): ");
+    scanf("%lf", &b);
+    printf("Ievadiet dalījumu skaitu (precizitāte): ");
+    scanf("%d", &n);
+    
+    // Aprēķina un izvada rezultātus, izmantojot dažādas metodes
+    printf("Taisnstūra metode: %f\n", rectangle_method(a, b, n));
+    printf("Trapeces metode: %f\n", trapezoidal_method(a, b, n));
+    printf("Simpsona metode: %f\n", simpsons_method(a, b, n));
+    
+    return 0;
 }
