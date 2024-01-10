@@ -3,14 +3,14 @@
 
 Teilora rinda ir matemātiskā metode, kas ļauj tuvināti izteikt funkcijas ar polinomu t.s. veikt sarežģītu funkciju aproksimāciju. Šī metode ir nosaukta angļu matemātiķa Brouka Teilora vārdā. Teilora rindu var izmantot, lai aprakstītu jebkuru funkciju ƒ(x), kas ir bezgalīgi diferencējama. Funkcija _ƒ_ var būt reāla vai kompleksa. Tad Teilora rindu izmanto, lai aprakstītu, kā šī funkcija izskatās kāda skaitļa _a_ apkārtnē. Laboratorijas darba laikā tika izstrādāta C programma, kur funkcija `sin²(x)` tika izteikta, izmantojot Teilora rindu.
 
-![sin(x)^2 funkcija un attēlojums pirmajiem 6 summas elementiem izmantojot gnuplot un Teilora rindas](images/sin_squared.png)
+![sin(x)^2 funkcija un attēlojums pirmajiem 6 summas elementiem izmantojot gnuplot un Teilora rindas](bildes/sin_squared.png)
 
 Attēlā ir parādīts funkcijas `sin²(x)` grafiks, kas attēlots kopā ar tās Teilora rindu aproksimācijām dažādās kārtās. Šeit funkcija `sin²(x)` ir zīmēta kā bieza līnija (violeta), bet Teilora rindas aproksimācijas - kā plānākas līnijas. Teilora rindas ir attēlotas līdz 6. kārtai (_f0_ līdz _f5_), kur katrs nākamais polinoms ietver augstākus pakāpes locekļus, lai labāk tuvinātu sākotnējo funkciju. Grafiks sniedz vizuālu ieskatu, kā Teilora rindas polinomi pakāpeniski tuvojas sākotnējās funkcijas (šajā gadījumā `sin²(x)`) formai, īpaši tuvāk x ass centram, kur x ir intervālā `[-π,π]`. Tas parāda, kā katrā nākamajā kārtā polinoms kļūst precīzāks, labāk aproksimējot mērķa funkciju.
 
 ## sin²(x) aproksimācija ar summu
 
 Sākumā tika dota funkcijas `sin²(x)` aproksimācija ar summu:
-![sin(x)^2 funkcija aproksimācija ar summu](images/SinKvSum.JPEG)
+![sin(x)^2 funkcija aproksimācija ar summu](bildes/SinKvSum.JPEG)
 
 ## Programmas koda analīze
 
