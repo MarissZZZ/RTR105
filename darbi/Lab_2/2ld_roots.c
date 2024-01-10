@@ -22,7 +22,7 @@ int main() {
     // ievada nobīdes vērtību un precizitātes vērtību
     printf("Lūdzu ievadiet nobīdes A vērtību (funkcija tiks bīdīta uz leju vai augšu) A = ");
     scanf("%f", &A);
-    printf("Lūdzu ievadīt precizitātes vērtību (piem. 0.001): ");
+    printf("Lūdzu ievadiet precizitātes vērtību (piem. 0.001): ");
     scanf("%f", &delta_x);
     printf("---------------------------------------------------\n");
 
