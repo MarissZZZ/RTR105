@@ -1,7 +1,7 @@
 # 1. laboratorijas darbs "Skaitliskās metodes"
 ## sin(x)*sin(x) funkcijas aprēķins, izmantojot Teilora rindu
 
-Teilora rinda ir matemātiskā metode, kas ļauj tuvināti izteikt funkcijas ar polinomu t.s. veikt sarežģītu funkciju aproksimāciju. Šī metode ir nosaukta angļu matemātiķa Brouka Teilora vārdā. Teilora rindu var izmantot, lai aprakstītu jebkuru funkciju ƒ(x), kas ir bezgalīgi diferencējama. Funkcija _ƒ_ var būt reāla vai kompleksa. Tad Teilora rindu izmanto, lai aprakstītu, kā šī funkcija izskatās kāda skaitļa _a_ apkārtnē. Laboratorijas darba laikā tika izstrādāta C programma, kur funkcija `sin²(x)` tika izteikta, izmantojot Teilora rindu.
+Teilora rinda ir matemātiskā metode, kas ļauj tuvināti izteikt funkcijas ar polinomu t.s. veikt sarežģītu funkciju aproksimāciju. Šī metode ir nosaukta angļu matemātiķa Brouka Teilora vārdā. Teilora rindu var izmantot, lai aprakstītu jebkuru funkciju ƒ(x), kas ir bezgalīgi diferencējama. Funkcija _ƒ_ var būt reāla vai kompleksa. Tad Teilora rindu izmanto, lai aprakstītu, kā šī funkcija izskatās kāda skaitļa _a_ apkārtnē. Laboratorijas darba laikā tika izstrādāta funkcijas `sin²(x)` aproksimācija C programmēšanas valodā, izmantojot Teilora rindas.
 
 ![sin(x)^2 funkcija un attēlojums pirmajiem 6 summas elementiem izmantojot gnuplot un Teilora rindas](bildes/sin_squared.png)
 
