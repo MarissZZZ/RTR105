@@ -1,7 +1,7 @@
 # 2. laboratorijas darbs "Skaitliskās metodes"
 ## Dihotomijas metode sakņu atrašanai (Funkcijai sin(x)^2 un tās nobīdēm)
 
-Dihotomijas metode, kas pazīstama arī kā intervālu dalīšanas metode, ir vienkārša, bet efektīva skaitliskā metode sakņu atrašanai. Tās būtība ir intervāla robežas, kurā atrodas sakne, pakāpeniskā sašaurināšana. Tas tiek realizēts, dalot intervālu uz pusēm un izvēloties to pusintervālu, kurā sakne atrodas (skatīt *Attēls 1*). Procesu atkārto tik ilgi, līdz tiek sasniegta vēlamā precizitāte. Laboratorijas darba laikā tika izstrādāta C program- ma, kas implementē dihotomijas metodi funkcijai funkcijai `sin(x)^2` un tās nobīdēm.
+Dihotomijas metode, kas pazīstama arī kā intervālu dalīšanas metode, ir vienkārša, bet efektīva skaitliskā metode sakņu atrašanai. Tās būtība ir intervāla robežas, kurā atrodas sakne, pakāpeniskā sašaurināšana. Ja funkcijas vērtības abos intervāla galapunktos ir pretējās zīmes, tad saskaņā ar starpvērtību teorēmu (ja funkcija ir nepārtraukta) intervālā ir vismaz viena sakne. Turpina šo procesu, iteratīvi sašaurinot intervālu, līdz tiek sasniegta vēlamā precizitāte saknes atrašanai (skatīt *Attēls 1*). Laboratorijas darba laikā tika izstrādāta C programma, kas implementē dihotomijas metodi funkcijai funkcijai `sin(x)^2` un tās nobīdēm.
 
 ![Dihotomijas metodes ilustrācija](bildes/Bisection-method.jpg)
 
