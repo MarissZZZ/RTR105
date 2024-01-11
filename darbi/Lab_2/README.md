@@ -12,12 +12,20 @@ Avots: [ResearchGate]([https://www.example.com](https://www.researchgate.net/fig
 
 Attēlā redzama funkcijas grafika ilustrācija ar atzīmētām intervāla dalīšanas vietām, kas norāda uz dihotomijas metodes soļiem sakņu atrašanai.
 
-## Dihotomijas metodes piemērošana
+## Funkcijas `sin(x)^2` un tās variācijas
 
-Sākumā tika izstrādāts algoritms, kas ļauj veikt funkcijas `f(x)` sakņu atrašanu, izmantojot dihotomijas metodi:
-![Dihotomijas metodes piemērs](bildes/dihotomy_example.png)
+Laboratorijas darba ietvaros tika analizēta funkcija `sin(x)^2` un tās variācijas. Tika izmantots gnuplot, lai vizuāli attēlotu `sin(x)^2 - 0.5`, un `sin(x)^2 - 1` funkcijas, kur nobīdes A vertība A=0; A=1; A=0.5, kā piemērus, lai grafiski parādītu, kur grafiki krusto _x asi_ - saknes.
+
+![Funkcijas `sin(x)^2` un tās variācijas](bildes/sinkvadrats.png)
 
 ## Programmas koda analīze
+
+**Galvenā funkcija `main()`:**
+
+- Šajā funkcijā lietotājs tiek lūgts ievadīt funkcijas izteiksmi un intervālu, kurā meklēt saknes.
+- Tiek ģenerēti dati funkcijas grafika uzzīmēšanai.
+- Tālāk tiek izsaukta funkcija `find_root_graphically()`, lai vizuāli identificētu iespējamās saknes.
+- Beigās tiek parādīts funkcijas grafiks ar atzīmētām iespējamām saknēm.
 
 **Galvenā funkcija `main()`:**
 
