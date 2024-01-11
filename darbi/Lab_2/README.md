@@ -1,4 +1,29 @@
 # 2. laboratorijas darbs "Skaitliskās metodes"
+## Dihotomijas metode sakņu atrašanai
+
+Dihotomijas metode, kas pazīstama arī kā intervālu dalīšanas metode, ir vienkārša, bet efektīva skaitliskā metode sakņu atrašanai. Tās būtība ir intervāla robežas, kurā atrodas sakne, pakāpeniskā sašaurināšana. Tas tiek realizēts, dalot intervālu uz pusēm un izvēloties to pusintervālu, kurā sakne atrodas (skatīt Attēls_1). Procesu atkārto tik ilgi, līdz tiek sasniegta vēlamā precizitāte. Laboratorijas darba laikā tika izstrādāta C programma, kas implementē dihotomijas metodi.
+
+![Dihotomijas metodes ilustrācija](bildes/Bisection-method.jpg)
+
+Attēlā redzama funkcijas grafika ilustrācija ar atzīmētām intervāla dalīšanas vietām, kas norāda uz dihotomijas metodes soļiem sakņu atrašanai.
+
+## Dihotomijas metodes piemērošana
+
+Sākumā tika izstrādāts algoritms, kas ļauj veikt funkcijas `f(x)` sakņu atrašanu, izmantojot dihotomijas metodi:
+![Dihotomijas metodes piemērs](bildes/dihotomy_example.png)
+
+## Programmas koda analīze
+
+**Funkcija `dihotomy(double a, double b, double tolerance)`:**
+
+- Šī funkcija implementē dihotomijas metodi sakņu atrašanai.
+- Argumenti `a` un `b` norāda intervāla sākumu un beigas, kurā tiek meklēta sakne, `tolerance` norāda uz precizitāti.
+- Funkcija aprēķina funkcijas vērtību intervāla viduspunktā un pārbauda zīmes maiņu.
+- Ja zīmes maiņa ir konstatēta, funkcija turpina saknes meklējumus jaunajā intervālā.
+- Process tiek atkārtots līdz brīdim, kad intervāla garums ir mazāks par `tolerance`.
+- Beigās funkcija atgriež saknes aptuveno vērtību.
+
+# 2. laboratorijas darbs "Skaitliskās metodes"
 ## Grafiskā metode funkcijas sakņu atrašanai
 
 Grafiskā metode ir vienkārša un vizuāla skaitliskā metode, kas ļauj tuvināti noteikt funkcijas saknes. Šī metode ir īpaši noderīga, lai vizuāli identificētu funkcijas krustpunktu ar x asi, kas atbilst funkcijas saknei. Grafiskā metode ļauj vizuāli novērtēt funkcijas sakņu atrašanās vietas intervālā. Laboratorijas darba laikā tika izstrādāta C programma, kas ļauj uzzīmēt funkcijas grafiku un vizuāli identificēt iespējamās saknes.
