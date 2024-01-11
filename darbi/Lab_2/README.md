@@ -10,7 +10,7 @@ Dihotomijas metode, kas pazīstama arī kā intervālu dalīšanas metode, ir vi
 Avots: [ResearchGate]([https://www.example.com](https://www.researchgate.net/figure/Bisection-method-This-Bisection-method-states-that-if-fx-is-continuous-which-is-defined_fig2_336638530))
 
 
-Attēlā redzama funkcijas grafika ilustrācija ar atzīmētām intervāla dalīšanas vietām, kas norāda uz dihotomijas metodes soļiem sakņu atrašanai.
+Attēlā redzama Dihotomijas metode - ja funkcijas vērtības abos intervāla galapunktos ir pretējās zīmes, tad saskaņā ar starpvērtību teorēmu (ja funkcija ir nepārtraukta) intervālā ir vismaz viena sakne. Bisekcijas metode turpina šo procesu, iteratīvi sašaurinot intervālu, līdz tiek sasniegta vēlamā precizitāte saknes atrašanai.
 
 ## Funkcijas sin(x)^2 un tās variācijas
 
