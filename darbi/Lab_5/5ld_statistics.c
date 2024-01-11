@@ -14,6 +14,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+#include <ctype.h> // Nepieciešams priekš isalpha un tolower
 
 #define MAX_STRING_LENGTH 256
 
@@ -80,6 +81,8 @@ int find_moda(int arr[], int n, int* moda, int* moda_skaits) {
 
 int main() {
     char teksts[MAX_STRING_LENGTH];
+    int burtu_skaits[128] = {0}; // ASCII tabulas burti
+
     printf("Ievadiet tekstu: ");
     fgets(teksts, MAX_STRING_LENGTH, stdin);
     teksts[strcspn(teksts, "\n")] = 0; // Noņemt jaunas rindas rakstzīmi
@@ -88,6 +91,14 @@ int main() {
     int ascii_vertibas[n];
     int summa = 0;
     int min = 127, max = 0;
+
+    // Skaitīt katru burtu
+    for (int i = 0; teksts[i] != '\0'; ++i) {
+        if (isalpha(teksts[i])) {
+            int index = tolower(teksts[i]) - 'a';
+            burtu_skaits[index]++;
+        }
+    }
 
     printf("\nRakstzīmes un to ASCII vērtības:\n");
     for (int i = 0; i < n; ++i) {
@@ -123,5 +134,15 @@ int main() {
         printf("%c: %d\n", teksts[i], ascii_vertibas[i]);
     }
 
+    // Saglabāt datus failā
+    FILE *file = fopen("burtu_skaits.dat", "w");
+    for (int i = 0; i < 26; ++i) {
+        if (burtu_skaits[i] > 0) {
+            fprintf(file, "%c %d\n", 'a' + i, burtu_skaits[i]);
+        }
+    }
+    fclose(file);
+
     return 0;
+
 }
