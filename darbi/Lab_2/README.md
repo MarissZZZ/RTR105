@@ -18,9 +18,9 @@ Laboratorijas darba ietvaros tika analizēta funkcija `sin(x)^2` un tās variāc
 
 ![Funkcijas `sin(x)^2` un tās variācijas](bildes/sinkvadrats.png)
 
-*Attēls 2: Funkcijas `sin(x)^2` un tās variācijas.*
+*Attēls 2: Funkcijas sin(x)^2 un tās variācijas.*
 
-## Programmas rezultāts
+## Programmas rezultāts ar sin(x)^2
 Kā var redzēt *Attēls 2* funkcijai `sin(x)^2` sakne intervālā [2;5] ir `x = π`, kas ir aptuveni `3.14159`. Izpilot kodu ar precizitāti `0.001` un iterāciju skaitu `1111`  tika iegūts, ka sakne `x = 3.110919475555419921875`, kas ir ļoti tuva vērtība `π`. Skatīt rezultātu zemāk:
 ```shell
 sin(x)^2-A sakņu meklētājs (Dihotomijas metode)
