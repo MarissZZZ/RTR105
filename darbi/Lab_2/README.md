@@ -12,7 +12,7 @@ Avots: [ResearchGate]([https://www.example.com](https://www.researchgate.net/fig
 
 Attēlā redzama funkcijas grafika ilustrācija ar atzīmētām intervāla dalīšanas vietām, kas norāda uz dihotomijas metodes soļiem sakņu atrašanai.
 
-## Funkcijas `sin(x)^2` un tās variācijas
+## Funkcijas sin(x)^2 un tās variācijas
 
 Laboratorijas darba ietvaros tika analizēta funkcija `sin(x)^2` un tās variācijas. Ar gnuplot tika vizuāli attēlotas `sin(x)^2`, `sin(x)^2 - 0.5` un `sin(x)^2 - 1` funkcijas, kur nobīdes _A_ vertība ir _A=0; A=0.5; A=1_, kā piemērus, lai grafiski parādītu, kur grafiki krusto _x asi_ - saknes.
 
