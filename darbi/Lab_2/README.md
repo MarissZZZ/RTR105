@@ -21,7 +21,7 @@ Laboratorijas darba ietvaros tika analizēta funkcija `sin(x)^2` un tās variāc
 *Attēls 2: Funkcijas sin(x)^2 un tās variācijas.*
 
 ## Programmas rezultāts ar sin(x)^2-A, kur A=0.5
-Kā var redzēt *Attēls 2* funkcijai `sin(x)^2` sakne intervālā [0;1.5] ir `x = π/4`, kas ir aptuveni `0.78539816339`. Izpilot kodu ar precizitāti `0.001` un iterāciju skaitu `785`  tika iegūts, ka sakne `x = 0.784993469715118408203125`, kas ir ļoti tuva vērtība `π/4`. Skatīt rezultātu zemāk:
+Kā var redzēt *Attēls 2* funkcijai `sin(x)^2-0.5` sakne intervālā [0;1.5] ir `x = π/4`, kas ir aptuveni `0.78539816339`. Izpilot kodu ar precizitāti `0.001` un iterāciju skaitu `785`  tika iegūts, ka sakne `x = 0.784993469715118408203125`, kas ir ļoti tuva vērtība `π/4`. Skatīt rezultātu zemāk:
 ```shell
 sin(x)^2-A sakņu meklētājs (Dihotomijas metode)
 ---------------------------------------------------
