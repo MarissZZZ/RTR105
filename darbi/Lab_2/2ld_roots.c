@@ -31,7 +31,7 @@ int main() {
     fb = sin_kvadrata(b, A);
 
     // Pārbauda, vai ir iespējams atrast sakni dotajā intervālā
-    if ((A == 0 && fa * fb < 0) || (A != 0 && fa * fb > 0)) {
+    if ((A == 0 && A == 1 && fa * fb < 0) || (A != 0 && A != 1 && fa * fb > 0)) {
         printf("Intervālā [%.3f;%.3f] sin(x)^2 - %.3f nav sakņu vai ir pāra skaits sakņu\n", a, b, A);
         return 1;
     }
