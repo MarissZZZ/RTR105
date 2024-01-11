@@ -18,7 +18,7 @@ set grid xtics mxtics
 set mytics 2
 set mxtics 2
 
-# Differentiating each plot with unique color and line style
-plot sin(x)*sin(x) title "sin(x)^2" lw 3 lc rgb "red", \
-     sin(x)*sin(x)-0.5 title "sin(x)^2 - 0.5" lw 3 lc rgb "blue", \
-     sin(x)*sin(x)-1 title "sin(x)^2 - 1" lw 3 lc rgb "green"
+# Maina katru plot ar atšķirīgu krāsu
+plot sin(x)*sin(x) title "sin(x)^2" lw 2 lc rgb "red", \
+     sin(x)*sin(x)-0.5 title "sin(x)^2 - 0.5" lw 2 lc rgb "blue", \
+     sin(x)*sin(x)-1 title "sin(x)^2 - 1" lw 2 lc rgb "green"
