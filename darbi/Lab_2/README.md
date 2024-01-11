@@ -20,45 +20,52 @@ Laboratorijas darba ietvaros tika analizēta funkcija `sin(x)^2` un tās variāc
 
 *Attēls 2: Funkcijas sin(x)^2 un tās variācijas.*
 
-## Programmas rezultāts ar sin(x)^2
-Kā var redzēt *Attēls 2* funkcijai `sin(x)^2` sakne intervālā [2;5] ir `x = π`, kas ir aptuveni `3.14159`. Izpilot kodu ar precizitāti `0.001` un iterāciju skaitu `1111`  tika iegūts, ka sakne `x = 3.110919475555419921875`, kas ir ļoti tuva vērtība `π`. Skatīt rezultātu zemāk:
+## Programmas rezultāts ar sin(x)^2-A, kur A=0.5
+Kā var redzēt *Attēls 2* funkcijai `sin(x)^2` sakne intervālā [0;1.5] ir `x = π/4`, kas ir aptuveni `0.78539816339`. Izpilot kodu ar precizitāti `0.001` un iterāciju skaitu `785`  tika iegūts, ka sakne `x = 0.784993469715118408203125`, kas ir ļoti tuva vērtība `π/4`. Skatīt rezultātu zemāk:
 ```shell
 sin(x)^2-A sakņu meklētājs (Dihotomijas metode)
 ---------------------------------------------------
-Lūdzu ievadiet mazākās robežas 'a' vērtību: 2
-Lūdzu ievadiet lielākās robežas 'b' vērtību: 5
-Saknes meklēšanas intervāls [2.000;5.000]
+Lūdzu ievadiet mazākās robežas 'a' vērtību: 0
+Lūdzu ievadiet lielākās robežas 'b' vērtību: 1.5
+Saknes meklēšanas intervāls [0.000;1.500]
 ---------------------------------------------------
-Lūdzu ievadiet nobīdes A vērtību (funkcija tiks bīdīta uz leju vai augšu) A = 0
+Lūdzu ievadiet nobīdes A vērtību (funkcija tiks bīdīta uz leju vai augšu) A = 0.5
 Lūdzu ievadiet precizitātes vērtību (piem. 0.001): 0.001
 ---------------------------------------------------
 Sakne atrodas tuvu pie vērtībām: 
-         x = 3.110919475555419921875000000000
-         sin(3.1109)^2 - 0.00000 = 0.000940548838116228580474853516
-Vajadzīgais iterāciju skaits pie precizitātes 0.001000 ir 1111
+         x = 0.784993469715118408203125000000
+         sin(0.7850)^2 - 0.50000 = -0.000404693651944398880004882812
+Vajadzīgais iterāciju skaits pie precizitātes 0.001000 ir 785
 ```
 ## Programmas koda analīze
 
-**Galvenā funkcija `main()`:**
+**Programmas darbība:**
 
-- Šajā funkcijā lietotājs tiek lūgts ievadīt funkcijas izteiksmi un intervālu, kurā meklēt saknes.
-- Tiek ģenerēti dati funkcijas grafika uzzīmēšanai.
-- Tālāk tiek izsaukta funkcija `find_root_graphically()`, lai vizuāli identificētu iespējamās saknes.
-- Beigās tiek parādīts funkcijas grafiks ar atzīmētām iespējamām saknēm.
+1. Lietotājs ievada intervāla robežas `a` un `b`, kā arī nobīdes vērtību `A`, kas pārvieto funkciju `sin(x)^2` uz augšu vai leju, un precizitātes vērtību `delta_x`. Šīs vērtības nosaka intervālu, kurā programma meklēs **funkcijas sakni**, un **precizitāti**, ar kādu tā tiks noteikta.
 
-**Galvenā funkcija `main()`:**
+2. Pirms saknes meklēšanas uzsākšanas, programma pārbauda, vai dotajā intervālā ir iespējams atrast sakni. Ja funkcijas vērtības intervāla galapunktos ir vienādas zīmes un A nav nulle, tas var liecināt par to, ka intervālā nav sakņu vai sakņu skaits ir pāra. Tā kā `sin(x)^2` funkcija bez nobīdes nav negatīva, tad jaizpildās nosacījumiem, kuri ir pret Dihotomijas metodes, bet lai programma darbotos, tika veikti uzlabojumi:
+A = 0 un A = 1, tad sin(x) * sin(b) > 0, bet ja A nav nulle un A nav 1, tad sin(x) * sin(b) < 0, jo Dihotomijas metodē pieņem, ka funkcijas vērtības šajos galapunktos ir pretējas zīmes (f(a) * f(b) < 0), kas norāda uz to, ka sakne atrodas intervālā, balstoties uz starpvērtību teorēmu. Bet sin(x)^2 funkcija bez nobīdes vai arī nobīdot 1 vienību uz leju neveido pretējas zīmes.
 
-- Šajā funkcijā lietotājs tiek lūgts ievadīt funkcijas izteiksmi un intervālu, kurā meklēt saknes.
-- Tiek ģenerēti dati funkcijas grafika uzzīmēšanai.
-- Tālāk tiek izsaukta funkcija `find_root_graphically()`, lai vizuāli identificētu iespējamās saknes.
-- Beigās tiek parādīts funkcijas grafiks ar atzīmētām iespējamām saknēm.
+3. Ja sākotnējā pārbaudē netiek konstatēti iepriekš minētie apstākļi, programma sāk iteratīvu procesu, lai atrastu sakni. Tas notiek, palielinot x vērtību par delta_x soli līdz brīdim, kad tiek sasniegta intervāla beigu vērtība.
 
-## Programmas darbības apraksts
+4. Katrā iterācijas solī tiek pārbaudīts, vai funkcijas vērtība pie kāda x ir pietiekami tuva nullei (mazāka par delta_x). Ja šāds tuvinājums tiek atrasts, programma izvada saknes tuvinātās koordinātas un attiecīgās funkcijas vērtības, kā arī iterāciju skaitu, kas bija nepieciešams, lai sasniegtu šo precizitāti.
 
-Saglabājiet kodu .c failā, piemēram, `2ld_roots.c`.
-Atveriet termināli vai komandrindu un ejiet uz direktoriju, kur atrodas fails.
-Kompilējiet programmu, izmantojot GCC vai citu C kompilatoru. Piemēram:
+5. sin_kvadrata funkcija tiek definēta programmā, lai aprēķinātu un atgrieztu sin(x)^2 - A vērtību, kur A ir nobīde.
 
+6. Ja programma iterācijas procesā neatrod sakni, tā ieteiks lietotājam samazināt precizitāti (delta_x) un mēģināt vēlreiz.
+
+Šīs programmas izstrādē ir svarīgi atcerēties, ka `C valodā` _sin_ funkcijas argumentam ir jābūt **radiānos**, nevis grādos. Tādēļ, ja lietotājs ievadīs grādus, tie būs jāpārveido pirms funkcijas izmantošanas. Turklāt, _sin_ funkcija un matemātiskās operācijas, kas nepieciešamas `sin_kvadrata` funkcijai, prasa matemātikas bibliotēkas `(math.h)` saiti kompilācijas laikā, kas tiek nodrošināta ar `-lm` kompilācijas opciju.
+
+## Programmas palaišanas apraksts
+
+Saglabājiet kodu .c failā, piemēram, kā ir dots `2ld_roots.c`.
+Atveriet termināli un ejiet uz direktoriju, kur atrodas fails.
+
+Kompilējiet programmu, izmantojot GCC vai citu C kompilatoru, ar šādu komandu:
 ```shell
-$ gcc 2ld_roots.c -o roots_finder.out -lm
+$ gcc 2ld_roots.c -o saknes.out -lm
+```
+Lai palaistu failu:
+```shell
+$ ./saknes.out
 ```
