@@ -17,6 +17,7 @@ Attēlā redzama funkcijas grafika ilustrācija ar atzīmētām intervāla dalī
 Laboratorijas darba ietvaros tika analizēta funkcija `sin(x)^2` un tās variācijas. Ar gnuplot tika vizuāli attēlotas `sin(x)^2`, `sin(x)^2 - 0.5` un `sin(x)^2 - 1` funkcijas, kur nobīdes _A_ vertība ir _A=0; A=0.5; A=1_, kā piemērus, lai grafiski parādītu, kur grafiki krusto _x asi_ - saknes.
 
 ![Funkcijas `sin(x)^2` un tās variācijas](bildes/sinkvadrats.png)
+
 *Attēls 2: Funkcijas `sin(x)^2` un tās variācijas.*
 
 ## Programmas rezultāts
