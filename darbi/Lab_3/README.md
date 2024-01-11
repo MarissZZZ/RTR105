@@ -1,0 +1,3 @@
+# 3. laboratorijas darbs "Skaitliskās metodes"
+## Skaitliskā diferencēšana funkcijai sin(x)^2
+Skaitliskā diferencēšana ir metode, ko izmanto, lai aptuveni aprēķinātu funkcijas atvasinājumu noteiktā punktā. Šī metode ir īpaši noderīga, ja atvasinājuma analītiskā forma ir sarežģīta vai nezināma. Skaitliskā diferencēšana aptuveni aprēķina atvasinājumu, izmantojot funkcijas vērtības noteiktos punktos. Šajā laboratorijas darbā tiek apskatīta funkcijas sin(x)^2 skaitliskā diferencēšana, izmantojot C programmēšanas valodu. Kods ietver funkciju definīcijas sin(x)^2 vērtību aprēķināšanai, tās pirmā un otrā analītiskā atvasinājuma aprēķināšanai, kā arī tiešās atšķirības aproksimācijas pirmajam un otrajam atvasinājumam.
