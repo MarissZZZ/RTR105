@@ -17,6 +17,7 @@ set grid ytics mytics
 set grid xtics mxtics
 set mytics 2
 set mxtics 2
+set xtics ("−π" -pi, "−π/2" -pi/2, "0" 0, "π/2" pi/2, "π" pi)
 
 # Maina katru plot ar atšķirīgu krāsu
 plot sin(x)*sin(x) title "sin(x)^2" lw 2 lc rgb "red", \
