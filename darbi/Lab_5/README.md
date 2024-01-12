@@ -19,6 +19,7 @@ Ja kāds elements ir lielāks par nākamo (vai mazāks, atkarībā no kārtošan
 Šī procesa beigās lielākais elements (vai mazākais) būs nonācis masīva beigās.
 Process tiek atkārtots masīvam, kas ir par vienu elementu īsāks, jo pēdējais elements jau ir pareizajā vietā.
 Tas tiek turpināts, līdz viss masīvs ir sakārtots.
+
 Izmantotais avots: https://www.productplan.com/glossary/bubble-sort/#:~:text=Bubble%20sort%20is%20a%20basic,they%20are%20out%20of%20order.
 
 ```shell
