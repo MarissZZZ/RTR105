@@ -1,6 +1,10 @@
 # 3. laboratorijas darbs "Skaitliskās metodes"
 ## Skaitliskā diferencēšana funkcijai sin(x)^2
-Skaitliskā diferencēšana ir metode, ko izmanto, lai aptuveni aprēķinātu funkcijas atvasinājumu noteiktā punktā. Šī metode ir īpaši noderīga, ja atvasinājuma analītiskā forma ir sarežģīta vai nezināma. Skaitliskā diferencēšana aptuveni aprēķina atvasinājumu, izmantojot funkcijas vērtības noteiktos punktos. Laboratorijas darbā tiek apskatīta funkcijas sin(x)^2 skaitliskā diferencēšana, izmantojot C programmēšanas valodu. Kods sastāv no funkcijām, lai aprēķinātu sin(x)^2 un tās pirmās un otrās kārtas atvasinājumus, analītiski un skaitliski diferencējot.
+Skaitliskā diferencēšana ir metode, ko izmanto, lai aptuveni aprēķinātu funkcijas atvasinājumu noteiktā punktā. Šī metode ir īpaši noderīga, ja atvasinājuma analītiskā forma ir sarežģīta vai nezināma. Skaitliskā diferencēšana aptuveni aprēķina atvasinājumu, izmantojot funkcijas vērtības noteiktos punktos. Laboratorijas darbā tiek apskatīta funkcijas `sin(x)^2` skaitliskā diferencēšana, izmantojot C programmēšanas valodu. Kods sastāv no funkcijām, lai aprēķinātu sin(x)^2 un tās pirmās un otrās kārtas atvasinājumus, analītiski un skaitliski diferencējot.
+
+![Rezultāts](derivative.png)
+
+Ar `gnuplot` vizualizācijas rīku ir parādīts `sin(x)^2` gan analītisko, gan skaitliski diferencēto atvasinājumu grafikus. Attēlā redzamie grafiki ir diapazonā [1:5] ar soli 0.01. Grafiki ir izveidoti no `derivative.dat` failā ierakstītajiem datiem. Attēlā ir redzami tikai 3 garfiki, jo pirmās un otrās kārtas analītiskie un skaitliski diferencetie atvasinājumi atšķiras ar ļoti mazu vērtību.
 
 ## Programmas koda struktūra
 **1. Funkcijas definīcijas:**
@@ -74,3 +78,32 @@ $ ./derivative.out
 
 ## Programmas rezultāts
 
+Lietotājs ievadīja `a` vērtību vienādu ar `1`, `b` vērtību vienādu ar `5` un precizitāti `delta_x` vienādu ar `0.01`. Dotie dati tika ierakstīti `derivative.dat`. Rezultāts terminālī (attēlotas tikai pirmas 3 un pēdējas 3 vērtības):
+```shell
+Ievadi a vērtību: 1
+Ievadi b vērtību: 5
+Ievadi precizitāti (delta_x): 0.01
+1.000000        0.708073        0.909297        0.905073        -0.832294       -0.832677
+1.010000        0.717124        0.900793        0.896388        -0.868497       -0.868440
+1.020000        0.726088        0.891929        0.887346        -0.904352       -0.904203
+...
+...
+...
+4.970019        0.935082        -0.492762       -0.501442       -1.740329       -1.740456
+4.980020        0.930068        -0.510066       -0.518644       -1.720271       -1.720190
+4.990020        0.924881        -0.527166       -0.535643       -1.699525       -1.699925
+```
+
+Dotie dati `derivative.dat` (attēlotas tikai pirmas 3 un pēdējas 3 vērtības):
+```shell
+x		sin^2(x)	sin^2'(x) a.	sin^2'(x) par.	sin^2''(x) a.	sin^2''(x) par.
+1.000000	0.708073	0.909297		0.905073		-0.832294		-0.832677
+1.010000	0.717124	0.900793		0.896388		-0.868497		-0.868440
+1.020000	0.726088	0.891929		0.887346		-0.904352		-0.904203
+...
+...
+...
+4.970019	0.935082	-0.492762		-0.501442		-1.740329		-1.740456
+4.980020	0.930068	-0.510066		-0.518644		-1.720271		-1.720190
+4.990020	0.924881	-0.527166		-0.535643		-1.699525		-1.699925
+```
