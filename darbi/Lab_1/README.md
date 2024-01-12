@@ -12,6 +12,10 @@ Attēlā ir parādīts funkcijas `sin²(x)` grafiks, kas attēlots kopā ar tās
 Sākumā tika dota funkcijas `sin²(x)` aproksimācija ar summu:
 ![sin(x)^2 funkcija aproksimācija ar summu](bildes/SinKvSum.JPEG)
 
+No kura tika aprēķināts:
+
+`Rekurences reizinātājs R = (-2 * k^2 / 2 * k^2 - k)`
+
 ## Programmas koda analīze
 
 **Funkcija `lietotaja_sinuss_kvadrats(long double x)`:**
