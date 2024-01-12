@@ -35,10 +35,10 @@ Skaitliskā diferencēšana ir metode, ko izmanto, lai aptuveni aprēķinātu fu
 2. _Skaitliskā metode_ `(pirmais_parnest funkcija)`: pirmās kārtas atvasinājums tiek aprēķināts izmantojot skaitlisko diferencēšanu ar tiešās atšķirības metodi. Šeit izmanto izteiksmi `(sin(x + delta_x)^2 - sin(x)^2) / delta_x`,
 kur:
 
-`(sin(x + delta_x)^2` - Tā ir `sin(x)^2` vertība pie `x + delta_x`, kur `delta_x` ir maza pieauguma vērtība, kas tiek pievienota `x`.
-`sin(x)^2` - Tā ir `sin(x)` vertība pie `x`.
-`(sin(x + delta_x)^2 - sin(x)^2)` - Šī izteiksme aprēķina funkcijas izmaiņu starp šiem diviem punktiem.
-`delta_x` - Dalot šo izmaiņu ar `delta_x`, iegūst vidējo izmaiņas ātrumu šajā intervālā.
+- `(sin(x + delta_x)^2` - Tā ir `sin(x)^2` vertība pie `x + delta_x`, kur `delta_x` ir maza pieauguma vērtība, kas tiek pievienota `x`.
+- `sin(x)^2` - Tā ir `sin(x)` vertība pie `x`.
+- `(sin(x + delta_x)^2 - sin(x)^2)` - Šī izteiksme aprēķina funkcijas izmaiņu starp šiem diviem punktiem.
+- `delta_x` - Dalot šo izmaiņu ar `delta_x`, iegūst vidējo izmaiņas ātrumu šajā intervālā.
 
 Kad `delta_x` tuvojas nullei, šī formula tuvojas pirmā kārtas atvasinājumam `sin(x)^2`. Tomēr skaitliskajā diferencēšanā izmanto nelielu, bet fiksētu `delta_x` vērtību.
 
@@ -50,11 +50,11 @@ Kad `delta_x` tuvojas nullei, šī formula tuvojas pirmā kārtas atvasinājumam
 2. _Skaitliskā metode_ `(otrais_parnest funkcija)`: Līdzīgi pirmajam gadījumam, otrās kārtas atvasinājums tiek aprēķināts izmantojot skaitlisko diferencēšanu: `(sin(x + delta_x)^2 - 2sin(x)^2 + sin(x - delta_x)^2) / delta_x^2`,
 kur:
 
-`sin(x + delta_x)^2` un `sin(x - delta_x)^2` - Tās ir `sin(x)^2` vērtības pie x + delta_x un x - delta_x.
+- `sin(x + delta_x)^2` un `sin(x - delta_x)^2` - Tās ir `sin(x)^2` vērtības pie x + delta_x un x - delta_x.
 Šeit `delta_x` ir maza vērtība, kas tiek pievienota un atņemta no `x`.
-`2sin(x)^2`: Divreizēja `sin^2(x)` vērtība pašreizējā punktā `x`.
-`(sin(x + delta_x)^2 - 2sin(x)^2 + sin(x - delta_x)^2)`: Šī izteiksme aprēķina funkcijas izmaiņu šajā intervālā.
-`delta_x^2`: Dalot šo izmaiņu ar kvadrātu δx, iegūst vidējo izmaiņas ātrumu attiecībā pret `x` izmaiņu kvadrātu.
+- `2sin(x)^2`: Divreizēja `sin^2(x)` vērtība pašreizējā punktā `x`.
+- `(sin(x + delta_x)^2 - 2sin(x)^2 + sin(x - delta_x)^2)`: Šī izteiksme aprēķina funkcijas izmaiņu šajā intervālā.
+- `delta_x^2`: Dalot šo izmaiņu ar kvadrātu δx, iegūst vidējo izmaiņas ātrumu attiecībā pret `x` izmaiņu kvadrātu.
 
 Arī šajā gadījumā mazākas `delta_x` vērtības nodrošina precīzākus rezultātus, bet praksē tiek izmantotas fiksētas vērtības.
 
