@@ -4,7 +4,7 @@ Skaitliskā diferencēšana ir metode, ko izmanto, lai aptuveni aprēķinātu fu
 
 ![Rezultāts](derivative.png)
 
-Ar `gnuplot` vizualizācijas rīku ir parādīts `sin(x)^2` gan analītisko, gan skaitliski diferencēto atvasinājumu grafikus. Attēlā redzamie grafiki ir diapazonā [1:5] ar soli 0.01. Grafiki ir izveidoti no `derivative.dat` failā ierakstītajiem datiem. Attēlā ir redzami tikai 3 garfiki, jo pirmās un otrās kārtas analītiskie un skaitliski diferencetie atvasinājumi atšķiras ar ļoti mazu vērtību.
+Palaižot `derivative.gp` (izmantojot `gnuplot`) - tika attēlots `sin(x)^2` grafiks un `sin(x)^2` pirmās un otrās kārtas gan analītisku, gan skaitliski diferencētu atvasinājumu grafiki. Attēlā redzamie grafiki ir diapazonā [1:5] ar soli 0.01. Grafiki ir izveidoti no `derivative.dat` faila datiem, kuri tika ierakstīti, izpildot programmu. Attēlā pirmās un otrās kārtas analītiskie un skaitliski diferencētie atvasinājumi izskatās kā viens grafiks, jo tie atšķiras ar ļoti mazu vērtību.
 
 ## Programmas koda struktūra
 **1. Funkcijas definīcijas:**
@@ -31,7 +31,7 @@ Ar `gnuplot` vizualizācijas rīku ir parādīts `sin(x)^2` gan analītisko, gan
 - `sin(x)^2` **pirmo** un **otro atvasinājumu** gan analītiski, gan izmantojot skaitlisko diferencēšanu (intervālā no `a` līdz `b`).
 - Rezultāti tiek ierakstīti failā `derivative.dat`, kurā tiek saglabāti gan analītiskie, gan skaitliskie atvasinājumi noteiktam `x` vērtību diapazonam.
   
-## Atvasinājuma vērtības aprēķināšana
+## Atvasinājumu vērtības aprēķināšana
 
 **Pirmās kārtas atvasinājums:**
 
@@ -42,7 +42,7 @@ kur:
 - `(sin(x + delta_x)^2` - Tā ir `sin(x)^2` vertība pie `x + delta_x`, kur `delta_x` ir maza pieauguma vērtība, kas tiek pievienota `x`.
 - `sin(x)^2` - Tā ir `sin(x)` vertība pie `x`.
 - `(sin(x + delta_x)^2 - sin(x)^2)` - Šī izteiksme aprēķina funkcijas izmaiņu starp šiem diviem punktiem.
-- `delta_x` - Dalot šo izmaiņu ar `delta_x`, iegūst vidējo izmaiņas ātrumu šajā intervālā.
+- `delta_x` - Dalot šo izmaiņu ar `delta_x` jeb soli, iegūst vidējo izmaiņas ātrumu šajā intervālā.
 
 Kad `delta_x` tuvojas nullei, šī formula tuvojas pirmā kārtas atvasinājumam `sin(x)^2`. Tomēr skaitliskajā diferencēšanā izmanto nelielu, bet fiksētu `delta_x` vērtību.
 
@@ -107,3 +107,9 @@ x		sin^2(x)	sin^2'(x) a.	sin^2'(x) par.	sin^2''(x) a.	sin^2''(x) par.
 4.980020	0.930068	-0.510066		-0.518644		-1.720271		-1.720190
 4.990020	0.924881	-0.527166		-0.535643		-1.699525		-1.699925
 ```
+## Secinājumi
+
+1. Analītiska atvasināšana sniedz precīzu atvasinājuma vērtību, jo tā balstās uz matemātiskajām funkciju īpašībām. Savukārt, skaitliskā diferencēšana aptuveni aprēķina atvasinājumu, izmantojot funkcijas vērtības noteiktos punktos. Rezultāti parāda, ka skaitliski aprēķinātie atvasinājumi var atšķirties no analītiskajiem, īpaši pie lielākām `delta_x` vērtībām.
+2. Mazas `delta_x` vērtības uzlabo skaitliskās diferencēšanas precizitāti, tuvinot tās rezultātus analītiskajiem. Tomēr, pārāk mazas `delta_x` vērtības var radīt skaitļošanas kļūdas noapaļošanas problēmas dēļ.
+3. Skaitliskā diferencēšana ir īpaši svarīga praksē, kad funkcijas analītiskais atvasinājums nav zināms vai ir grūti aprēķināms. Šādos gadījumos skaitliskā diferencēšana nodrošina efektīvu un praktisku risinājumu, sin(x)^2 funkcijas gadījumā, analītiskie atvasinājumi ir salīdzinoši vienkārši aprēķināmi. Taču sarežģītākām funkcijām skaitliskā diferencēšana varētu būt vienīgā metode.
+4. Rezultāti atspoguļo, ka metodes izvēle - analītiskā vai skaitliskā - ir atkarīga no konkrētās problēmas un pieejamās informācijas par funkciju.
