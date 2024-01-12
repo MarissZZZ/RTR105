@@ -57,7 +57,7 @@ $ ./sinkvadrats.out
 ```
 Lietotājam tiks prasīts ievadīt argumentu `x`. Pēc tam, kad lietotājs ievadīja skaitli un nospieda `Enter`, tiek aprēķināta un izvadīta `sin²(x)` vērtība izmantojot Linux operētājsistēmas `sin²(x)` funkcijas realizāciju. Tālāk tiek veikts funkcijas vērtības aprēķins, izmantojot paša izstrādātu `sin²(x)` realizāciju. Programmas darbības piemērs aprēķinot `sin²(2.05)`:
 
-Izvade terminālī:
+**Izvade terminālī:**
 ```shell
 Sin * sin aprekinasana: 
 Ievadi argumentu x: 
