@@ -23,7 +23,7 @@ float pirmais_parnest(float x, float delta_x) {
     return (sin_kvadrats(x + delta_x) - sin_kvadrats(x)) / delta_x;
 }
 
-// Otrā atvasinājuma tiešās atšķirības aproksimācija
+// Otrā atvasinājuma tiešās atšķirības aproksimācijaa
 float otrais_parnest(float x, float delta_x) {
     return (sin_kvadrats(x + delta_x) - 2 * sin_kvadrats(x) + sin_kvadrats(x - delta_x)) / pow(delta_x, 2);
 }
