@@ -9,32 +9,32 @@ double f(double x) {
 // Taisnstūra metode 
 double taisnstura_metode(double a, double b, int n) {
     double h = (b - a) / n; // Aprēķina soli (h), kas ir intervāla [a, b] dalījums ar dalījumu skaitu (n)
-    double area = 0.0; // Sākotnējā laukuma vērtība
+    double laukums = 0.0; // Sākotnējā laukuma vērtība
     for (int i = 0; i < n; i++) {
-        area += f(a + i * h + h / 2); // Pievieno laukumam funkcijas vērtību katrā taisnstūrī, kas aprēķināta tā vidū
+        laukums += f(a + i * h + h / 2); // Pievieno laukumam funkcijas vērtību katrā taisnstūrī, kas aprēķināta tā vidū
     }
-    return area * h; // Rezultāts tiek iegūts, reizinot summēto laukumu ar soli (h)
+    return laukums * h; // Rezultāts tiek iegūts, reizinot summēto laukumu ar soli (h)
 }
 
 // Trapeces metode 
 double trapeces_metode(double a, double b, int n) {
     double h = (b - a) / n; // Aprēķina soli (h)
-    double sum = (f(a) + f(b)) / 2.0; // Sākuma un beigu punktu vidējā vērtība ir pirmā un pēdējā trapeces augstums
+    double summa = (f(a) + f(b)) / 2.0; // Sākuma un beigu punktu vidējā vērtība ir pirmā un pēdējā trapeces augstums
     for (int i = 1; i < n; i++) {
-        sum += f(a + i * h); // Summē funkcijas vērtības katrā starppunktu, kas ir trapeces augstumi
+        summa += f(a + i * h); // Summē funkcijas vērtības katrā starppunktu, kas ir trapeces augstumi
     }
-    return sum * h; // Reizinot summu ar soli, iegūst tuvinājumu integrālim
+    return summa * h; // Reizinot summu ar soli, iegūst tuvinājumu integrālim
 }
 
 // Simpsona metode
 double simpsona_metode(double a, double b, int n) {
     double h = (b - a) / n;
-    double sum = f(a) + f(b); // Sākuma un beigu punktu summa
+    double summa = f(a) + f(b); // Sākuma un beigu punktu summa
     for (int i = 1; i < n; i++) {
         double x = a + i * h; // Aprēķina katru x vērtību intervālā
-        sum += (i % 2 == 0 ? 2 : 4) * f(x); // Pāra i vērtībām pievieno 2*f(x), nepāra - 4*f(x) (Simpsona metodes specifika)
+        summa += (i % 2 == 0 ? 2 : 4) * f(x); // Pāra i vērtībām pievieno 2*f(x), nepāra - 4*f(x) (Simpsona metodes specifika)
     }
-    return sum * h / 3; // Gala rezultāts iegūts, reizinot summu ar h/3
+    return summa * h / 3; // Gala rezultāts iegūts, reizinot summu ar h/3
 }
 
 int main() {
