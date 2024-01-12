@@ -139,5 +139,5 @@ Taisnstūra metode: 6.287695
 Trapeces metode: 6.276160
 Simpsona metode: 6.272301
 ```
-Ekrānšāviņš no Wolframalpha.com. Var redzēt, ka atbildet ir ļoti tuvu patiesajai vērtībai.
+Ekrānšāviņš no wolframalpha.com. Var redzēt, ka atbildet ir ļoti tuvu patiesajai vērtībai.
 ![Pārbaude](WolframAlpha.PNG)
