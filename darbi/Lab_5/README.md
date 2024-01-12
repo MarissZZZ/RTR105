@@ -5,6 +5,7 @@ Laboratorijas darbā tika sakārtota simbolu rinda alfabēta secībā *(saskaņ�
 ## ASCII
 
 `ASCII`, kas pilnā nosaukumā (American Standard Code for Information Interchange) ir rakstzīmju kodēšanas standarts datoros. ASCII kodē 128 angļu valodas rakstzīmes kā skaitliskas vērtības. Šis standarts ietver burtus (gan lielos, gan mazos), ciparus, interpunkcijas zīmes un simbolus kā `Escape key (ESC)`, kur ASCII vērtība ir `27`. Tas izmanto 7 bitus, lai attēlotu katru rakstzīmi, jo baita pirmais bits vienmēr ir 0. Piemēram, lielo "T" apzīmē ar 84 vai 01010100 binārajā formā. Mazo burtu "t" binārā veidā apzīmē ar 116 vai 01110100.
+
 Informācija ņemta no avotiem: https://www.britannica.com/topic/ASCII un https://techterms.com/definition/ascii
 
 ## Burbuļa metode
