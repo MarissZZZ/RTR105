@@ -16,6 +16,8 @@ No kura tika aprēķināts:
 
 `Rekurences reizinātājs R = (-2 * k^2 / 2 * k^2 - k)`
 
+Tas tika izmantots koda rakstīšanā.
+
 ## Programmas koda analīze
 
 **Funkcija `lietotaja_sinuss_kvadrats(long double x)`:**
