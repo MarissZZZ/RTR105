@@ -42,7 +42,7 @@ Taisnstūra metode ir viena no vienkāršākajām skaitliskās integrēšanas me
 4. **Gala rezultāts**: 
    Rezultāts `laukums * h` ir visu taisnstūru laukumu summa, kas ir integrāļa tuvinājums intervālā `[a, b]`.
 
-Metodes grafiskais attēlojums:
+Metodes vispārigais grafiskais attēlojums (tas nav tieši sin(x)^2 funkcijai):
 
 ![Taisnstūra metode](rectangle.png)
 
@@ -80,7 +80,7 @@ Trapeces metode ir viena no skaitliskās integrēšanas metodēm, kas nodrošina
 4. **Gala rezultāts**: 
    Reizinot iegūto summu ar platuma vērtību `h`, iegūst tuvinājumu integrālim intervālā `[a, b]`.
 
-Metodes grafiskais attēlojums:
+Metodes vispārigais grafiskais attēlojums (tas nav tieši sin(x)^2 funkcijai):
 
 ![Trapeces metode](Trapeze.png)
 
@@ -118,7 +118,7 @@ Simpsona metode ir viena no precīzākajām skaitliskās integrēšanas metodēm
 4. **Gala rezultāts**: 
    Reizinot iegūto summu ar `h/3`, iegūst tuvinājumu integrālim intervālā `[a, b]`.
 
-Metodes grafiskais attēlojums:
+Metodes vispārigais grafiskais attēlojums (tas nav tieši sin(x)^2 funkcijai):
 
 ![Simpsona metode](simpsonsrule.png)
 
