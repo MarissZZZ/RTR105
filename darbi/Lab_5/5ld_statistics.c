@@ -1,3 +1,4 @@
+// UZDEVUMA PIERAKSTI
 // iet cauri no lietotaja ievadita teikuma un atrod simbolu ar vismazako ascii kodu un ar lielako izmantokot flag, atstarpes un punktus neņem vērā
 // burtu ar videjo vertibu char - burtam, summai ir int, nanoapaļo un atbilstoši parada simbolu kads sanak
 // jaatrod mediana (sakuma jasakarto atbilstošā secībā)
@@ -7,7 +8,6 @@
 // vins iet katrus 2 un iet talak
 // pec pirma apļa pedejais elemnts bus vislielakais, sanak par vienu mazak var parbaudit
 // pec otra pedejie 2
-
 // ar gnuplot jaattelo histofgramma ar cik katrs burts tika attēlots
 
 
