@@ -130,7 +130,7 @@ Simpsona metode ir efektīva kompleksāku funkciju integrēšanai, nodrošinot a
 
 ## Koda rezultāts:
 
-Tika ievadīta a vērtība, kas aptuveni -2π un b vērtība aptuveni π, un ar precizitāti 6, tika iegūti rezultāti:
+Tika ievadīta `a` vērtība, kas aptuveni `-2π` un `b` - `2π`, precizitāte - `6`, tika iegūti rezultāti:
 ```shell
 Ievadiet integrācijas apakšējo robežu [a-b] (a): -6.28
 Ievadiet integrācijas augšējo robežu [a-b] (b): 6.28 
